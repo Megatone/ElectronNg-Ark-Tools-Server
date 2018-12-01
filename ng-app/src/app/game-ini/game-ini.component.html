@@ -1,0 +1,466 @@
+<br>
+<div class="container">
+  <div class="panel panel-default">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th colspan="3">/script/shootergame.shootergamemode]</th>
+        </tr>
+        <!--
+          <tr>
+          <td>GlobalSpoilingTimeMultiplier</td>
+             <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.GlobalSpoilingTimeMultiplier">
+          </td>
+          <td>Scales the spoiling time of perishables globally. Higher values prolong the time. (Note: As of patch
+            196.0 there is still a bug whereby items moved to the player's inventory have their spoilage times reset to
+            normal (value 1.0) despite what this value is set at. It seems that as of 248.5 this has been fixed.)
+          </td>
+
+        </tr>
+        <tr>
+          <th colspan="3">[SessionSettings]</th>
+        </tr>
+        <tr>
+
+          <td>Name of your server
+          </td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.SessionName"></td>
+           <td>SessionName</td>
+        </tr>
+
+
+        <tr>
+          <td>allowThirdPersonPlayer</td>
+
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.allowThirdPersonPlayer"></mat-slide-toggle> YES
+          </td>
+            <td>Enables 3rd Person view</td>
+        </tr> -->
+        <!-- AAki -->
+        <tr>
+          <td>GlobalItemDecompositionTimeMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.GlobalItemDecompositionTimeMultiplier">
+          </td>
+          <td>Scales the decomposition time of dropped items, loot bags etc. globally. Higher values prolong the time.
+          </td>
+        </tr>
+        <tr>
+          <td>GlobalCorpseDecompositionTimeMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.GlobalCorpseDecompositionTimeMultiplier">
+          </td>
+          <td>Scales the decomposition time of corpses, (player and dinosaur), globally. Higher values prolong the
+            time.
+          </td>
+
+        </tr>
+        <tr>
+          <td>PvPZoneStructureDamageMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.PvPZoneStructureDamageMultiplier">
+          </td>
+          <td>Specifies the scaling factor for damage structures take within caves.
+            The lower the value, the less damage the structure takes (i.e. setting to 1.0 will make structure built in
+            or near a cave receive the same amount of damage as those built on the surface).
+          </td>
+
+        </tr>
+        <tr>
+          <td>bPvEDisableFriendlyFire</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPvEDisableFriendlyFire"></mat-slide-toggle> YES
+          </td>
+          <td>Prevent-Friendly-Fire (among tribesmates/tribesdinos/tribesstructures) option for PvE servers</td>
+
+        </tr>
+        <tr>
+          <td>ResourceNoReplenishRadiusPlayers</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.ResourceNoReplenishRadiusPlayers">
+          </td>
+          <td>Allow resources to regrow closer or farther away from players & structures. Values higher than 1 increase
+            the distance around players and structures where resources are allowed to grow back. Values between 0 and 1
+            will reduce it.
+          </td>
+
+        </tr>
+        <tr>
+          <td>ResourceNoReplenishRadiusStructures</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.ResourceNoReplenishRadiusStructures">
+          </td>
+          <td>Allow resources to regrow closer or farther away from players & structures. Values higher than 1 increase
+            the distance around players and structures where resources are allowed to grow back. Values between 0 and 1
+            will reduce it.
+          </td>
+
+        </tr>
+        <tr>
+          <td>
+            bAutoPvETimer
+            <hr>
+            bAutoPvEUseSystemTime
+            <hr>
+            AutoPvEStartTimeSeconds
+            <hr>
+            AutoPvEStopTimeSeconds
+          </td>
+          <td style="width: 150px;">
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bAutoPvETimer"></mat-slide-toggle> YES
+            <hr style="margin:8px">
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bAutoPvEUseSystemTime"></mat-slide-toggle> YES
+            <hr style="margin-top:1em;margin-bottom:4px;">
+            <input type="number" class="form-control" [(ngModel)]="config.AutoPvEStartTimeSeconds">
+            <hr style="margin: 6px;">
+            <input type="number" class="form-control" [(ngModel)]="config.AutoPvEStopTimeSeconds">
+          </td>
+          <td>Allow switching from PvE to PvP mode at pre-specified in-game times OR a pre-specified real-world
+            (server-side) times! For more detailed information regarding using system time vs. in-game time, please see
+            patch notes 196.0.
+            bAutoPvETimer must be set to True for these options to be activated.
+          </td>
+        </tr>
+        <tr>
+          <td>LayEggIntervalMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.LayEggIntervalMultiplier">
+          </td>
+          <td>Higher number increases (by percentage) time between eggs spawning / being laid
+          </td>
+        </tr>
+        <tr>
+          <td>DinoTurretDamageMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.DinoTurretDamageMultiplier">
+          </td>
+          <td>Higher number increases (by percentage) the damage done by Turrets towards a Dino
+          </td>
+        </tr>
+        <tr>
+          <td>bDisableLootCrates</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableLootCrates"></mat-slide-toggle> YES
+          </td>
+          <td>True prevent spawning of Loot crates (artifact creates will still spawn)</td>
+        </tr>
+        <tr>
+          <td>DinoHarvestingDamageMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.DinoHarvestingDamageMultiplier">
+          </td>
+          <td>Higher number increases (by percentage) the damage done to a harvestable item/entity by a Dino. The
+            higher number, the faster you collect
+          </td>
+        </tr>
+        <tr>
+          <td>bDisableFriendlyFire</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableFriendlyFire"></mat-slide-toggle> YES
+          </td>
+          <td>Prevent-Friendly-Fire (among tribesmates/tribesdinos/tribesstructures) option for PvP servers</td>
+
+        </tr>
+        <tr>
+          <td>CustomRecipeEffectivenessMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.CustomRecipeEffectivenessMultiplier">
+          </td>
+          <td>Higher number increases (by percentage) the effectiveness of a custom recipe
+          </td>
+        </tr>
+        <tr>
+          <td>CustomRecipeSkillMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.CustomRecipeSkillMultiplier">
+          </td>
+          <td>Higher number increases (by percentage) the effect of the players crafting speed level that is used as a
+            base for the formula in creating a custom recipe
+          </td>
+        </tr>
+        <tr>
+          <td>MatingIntervalMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.MatingIntervalMultiplier">
+          </td>
+          <td>Higher number increases (on a percentage scale) interval between which dinosaurs can mate
+            Example: MatingIntervalMultiplier=0.5 would allow dinosaurs to mate 50% sooner
+          </td>
+        </tr>
+        <tr>
+          <td>EggHatchSpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.EggHatchSpeedMultiplier">
+          </td>
+          <td>Higher number decreases (by percentage) time needed for fertilized egg to hatch
+          </td>
+        </tr>
+        <tr>
+          <td>BabyMatureSpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.BabyMatureSpeedMultiplier">
+          </td>
+          <td>Higher number decreases (by percentage) time needed for baby dino to mature
+          </td>
+        </tr>
+        <tr>
+          <td>bPassiveDefensesDamageRiderlessDinos</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPassiveDefensesDamageRiderlessDinos"></mat-slide-toggle>
+            YES
+          </td>
+          <td>True allow spike walls to damage wild/riderless Dinos</td>
+        </tr>
+        <tr>
+          <td>KillXPMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.KillXPMultiplier">
+          </td>
+          <td>A multiplier to scale the amount of XP earned for a kill
+          </td>
+        </tr>
+        <tr>
+          <td>HarvestXPMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.HarvestXPMultiplier">
+          </td>
+          <td>A multiplier to scale the amount of XP earned for harvesting
+          </td>
+        </tr>
+        <tr>
+          <td>CraftXPMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.CraftXPMultiplier">
+          </td>
+          <td>A multiplier to scale the amount of XP earned for crafting
+          </td>
+        </tr>
+        <tr>
+          <td>GenericXPMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.GenericXPMultiplier">
+          </td>
+          <td>A multiplier to scale the amount of XP earned for generic XP (automatic over time)
+          </td>
+        </tr>
+        <tr>
+          <td>SpecialXPMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.SpecialXPMultiplier">
+          </td>
+          <td>A multiplier to scale the amount of XP earned for SpecialEvents </td>
+        </tr>
+        <tr>
+          <td>PGMapName</td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.PGMapName"></td>
+          <td>Nitrado server Default Value</td>
+        </tr>
+        <tr>
+          <td>PGTerrainPropertiesString</td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.PGTerrainPropertiesString"></td>
+          <td>Nitrado server Default Value </td>
+        </tr>
+        <tr>
+          <td>bDisableDinoRiding</td>
+          <td> NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableDinoRiding"></mat-slide-toggle> YES
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>bDisableDinoTaming</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableDinoTaming"></mat-slide-toggle> YES
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>bUseCorpseLocator</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bUseCorpseLocator"></mat-slide-toggle> YES
+          </td>
+          <td>if set to true, you will see a green lightbeam at the location of your death</td>
+        </tr>
+        <tr>
+          <td>bDisableStructurePlacementCollision</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableStructurePlacementCollision"></mat-slide-toggle>
+            YES
+          </td>
+          <td>If 'true' allows for structures to clip into the terrain.</td>
+        </tr>
+        <tr>
+          <td>FastDecayInterval</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.FastDecayInterval">
+          </td>
+          <td>Enable this option for a fixed constant decay period for "Fast Decay" structures (such as pillars or lone
+            foundations). Value is in seconds.</td>
+        </tr>
+        <tr>
+          <td>bUseSingleplayerSettings</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bUseSingleplayerSettings"></mat-slide-toggle> YES
+          </td>
+          <td>If 'true' then the following multipliers are applied additionally to the configured (or default) values.</td>
+
+        </tr>
+        <tr>
+          <td>bAllowUnlimitedRespecs</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bAllowUnlimitedRespecs"></mat-slide-toggle> YES
+          </td>
+          <td>Set to true to allow more than one usage of Mindwipe Tonic per level.</td>
+        </tr>
+        <tr>
+          <td>SupplyCrateLootQualityMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.SupplyCrateLootQualityMultiplier">
+          </td>
+          <td>Increases the quality of items that have a quality in the supply crates. The quality also depends on the
+            Difficulty Offset.</td>
+        </tr>
+        <tr>
+          <td>FishingLootQualityMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.FishingLootQualityMultiplier">
+          </td>
+          <td>Increases the quality of items that have a quality when fishing.</td>
+        </tr>
+        <tr>
+          <td>BabyCuddleIntervalMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.BabyCuddleIntervalMultiplier">
+          </td>
+          <td>How often Babies wanna cuddle. More often means you'll need to cuddle with them more frequently to gain
+            Imprinting Quality.</td>
+        </tr>
+        <tr>
+          <td>BabyCuddleGracePeriodMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.BabyCuddleGracePeriodMultiplier">
+          </td>
+          <td>
+            A multiplier on how long after delaying cuddling with the Baby before Imprinting Quality starts to
+            decrease.
+          </td>
+        </tr>
+        <tr>
+          <td>BabyCuddleLoseImprintQualitySpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.BabyCuddleLoseImprintQualitySpeedMultiplier">
+          </td>
+          <td>
+            A multiplier on how fast Imprinting Qualitiy decreases after the grace period if you haven't yet cuddled
+            with the Baby.
+          </td>
+        </tr>
+        <tr>
+          <td>BabyImprintingStatScaleMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.BabyImprintingStatScaleMultiplier">
+          </td>
+          <td>
+            How much of an effect on stats the Imprinting Quality has. Set it to 0 to effectively disable the system.
+          </td>
+        </tr>
+        <tr>
+          <td>PlayerHarvestingDamageMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerHarvestingDamageMultiplier">
+          </td>
+          <td>
+            Higher number increases (by percentage) the damage done to a harvestable item/entity by a Player. The
+            higher number, the faster you collect
+          </td>
+        </tr>
+        <tr>
+          <td>CropGrowthSpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.CropGrowthSpeedMultiplier">
+          </td>
+          <td>
+            Higher number increases (by percentage) speed of crop growth
+          </td>
+        </tr>
+        <tr>
+          <td>BabyFoodConsumptionSpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.BabyFoodConsumptionSpeedMultiplier">
+          </td>
+          <td>
+            Lower number decreases (by percentage) the speed that baby dinos eat their food
+          </td>
+        </tr>
+        <tr>
+          <td>bPvEAllowTribeWar</td>
+
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPvEAllowTribeWar"></mat-slide-toggle> YES
+          </td>
+          <td>False disables capability for Tribes to officially declare war on each other for mutually-agreed-upon
+            period of time</td>
+        </tr>
+        <tr>
+          <td>bPvEAllowTribeWarCancel</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPvEAllowTribeWarCancel"></mat-slide-toggle> YES
+          </td>
+          <td>True allows cancellation of an agreed-upon war before it has actually started</td>
+        </tr>
+        <tr>
+          <td>CropDecaySpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.CropDecaySpeedMultiplier">
+          </td>
+          <td>
+            Higher number decrease (by percentage) speed of crop decay in plots
+          </td>
+        </tr>
+        <tr>
+          <td>HairGrowthSpeedMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.HairGrowthSpeedMultiplier">
+          </td>
+          <td>
+            Higher number increase speed of hair growth.
+          </td>
+        </tr>
+        <tr>
+          <td>FuelConsumptionIntervalMultiplier</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.FuelConsumptionIntervalMultiplier">
+          </td>
+          <td>
+            Define the interval of fuel consumption.
+          </td>
+        </tr>
+        <tr>
+          <td>KickIdlePlayersPeriod</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.KickIdlePlayersPeriod">
+          </td>
+          <td>
+            Time after which characters that have not moved or interacted will be kicked (if -EnableIdlePlayerKick as
+            command line parameter is set).
+          </td>
+        </tr>
+        <tr>
+          <td>MaxNumberOfPlayersInTribe</td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.MaxNumberOfPlayersInTribe">
+          </td>
+          <td>
+            Set this to a number > 0 to act as a limit. 1 Player Tribes effectively disables Tribes
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button type="button" class="btn btn-primary" (click)="generate()">Generate</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

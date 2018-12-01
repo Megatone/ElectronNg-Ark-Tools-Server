@@ -1,0 +1,1024 @@
+<br>
+<div class="container">
+  <div class="panel panel-default">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th colspan="3">[/script/engine.gamesession]</th>
+        </tr>
+        <tr>
+          <td>MaxPlayers</td>
+          <td>Specifies the maximum number of players that can play on the server simultaneously.
+          </td>
+          <td style="width: 150px;">
+            <input type="number" class="form-control" [(ngModel)]="config.MaxPlayers">
+          </td>
+        </tr>
+
+        <tr>
+          <th colspan="3">[SessionSettings]</th>
+        </tr>
+        <tr>
+          <td>SessionName</td>
+          <td>Name of your server
+          </td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.SessionName"></td>
+        </tr>
+
+        <tr>
+          <th colspan="3">[MessageOfTheDay]</th>
+        </tr>
+        <tr>
+          <td>Duration</td>
+          <td>Specifies the duration of the welcome message</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.Duration">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Message</td>
+          <td>Defines a welcome message</td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.Message"></td>
+        </tr>
+        <tr>
+          <th colspan="3">[ServerSettings]</th>
+        </tr>
+        <tr>
+          <td>allowThirdPersonPlayer</td>
+          <td>Enables 3rd Person view</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.allowThirdPersonPlayer"></mat-slide-toggle> YES
+          </td>
+        </tr>
+        <tr>
+          <td>AllowCaveBuildingPvE</td>
+          <td>If set to True, allows building in caves when PvE mode is also enabled.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowCaveBuildingPvE"></mat-slide-toggle> YES
+          </td>
+        </tr>
+        <tr>
+          <td>alwaysNotifyPlayerJoined</td>
+          <td>Players will always get notified if someone joins the server
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.alwaysNotifyPlayerJoined"></mat-slide-toggle> YES
+          </td>
+        </tr>
+        <tr>
+          <td>alwaysNotifyPlayerLeft</td>
+          <td>Players will always get notified if someone leaves the server
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.alwaysNotifyPlayerLeft"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>bAllowFlyerCarryPvE</td>
+          <td>Allows flyers to pick up players and dinos
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bAllowFlyerCarryPvE"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>bDisableStructureDecayPvE</td>
+          <td>Disable the gradual (7 days) decay of player structures
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableStructureDecayPvE"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>DayCycleSpeedScale</td>
+          <td>Specifies the scaling factor for the passage of time in the ARK, controlling how often
+            day changes to night and night changes to day. The default value 1 provides the same
+            cycle speed as the singleplayer experience (and the official public servers). Values
+            lower than 1 slow down the cycle; higher values accelerate it. Base time when value is
+            1 appears to be 1 minute real time equals approx. 28 minutes game time. Thus, for an
+            approximate 24 hour day/night cycle in game, use .035 for the value. - <a href="https://arkforum.de/ark-wiki/index.php?entry/391-ark-tagesl%C3%A4nge-rechner/"
+              target="_blank">Calculate your values here</a>
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DayCycleSpeedScale">
+          </td>
+        </tr>
+
+        <tr>
+          <td>DayTimeSpeedScale</td>
+          <td>Specifies the scaling factor for the passage of time in the ARK during the day. This
+            value determines the length of each day, relative to the length of each night (as
+            specified by NightTimeSpeedScale. Lowering this value increases the length of each day.
+            - <a href="https://arkforum.de/ark-wiki/index.php?entry/391-ark-tagesl%C3%A4nge-rechner/" target="_blank">Calculate
+              your values here</a>
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DayTimeSpeedScale">
+          </td>
+        </tr>
+
+        <tr>
+          <td>NightTimeSpeedScale</td>
+          <td>Specifies the scaling factor for the passage of time in the ARK during night time. This
+            value determines the length of each night, relative to the length of each day (as
+            specified by DayTimeSpeedScale. Lowering this value increases the length of each night.
+            - <a href="https://arkforum.de/ark-wiki/index.php?entry/391-ark-tagesl%C3%A4nge-rechner/" target="_blank">Calculate
+              your values here</a>
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.NightTimeSpeedScale">
+          </td>
+        </tr>
+
+        <tr>
+          <td>DinoCharacterFoodDrainMultiplier</td>
+          <td>Specifies the scaling factor for dinosaurs\' food consumption. Higher values increase
+            food consumption (dinosaurs get hungry faster).</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DinoCharacterFoodDrainMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>DinoCharacterHealthRecoveryMultiplier</td>
+          <td>Specifies the scaling factor for dinosaurs\' health recovery. Higher values increase
+            the recovery rate (dinosaurs heal faster).</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DinoCharacterHealthRecoveryMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>DinoCharacterStaminaDrainMultiplier</td>
+          <td>Specifies the scaling factor for dinosaurs\' stamina consumption. Higher values
+            increase stamina consumption (dinosaurs get tired faster).</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DinoCharacterStaminaDrainMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>DinoCountMultiplier</td>
+          <td>Specifies the scaling factor for dinosaur spawns. Higher values increase the number of
+            dinosaurs spawned throughout the ARK.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DinoCountMultiplier">
+          </td>
+        </tr>
+        <tr>
+          <td>DinoDamageMultiplier</td>
+          <td>Specifies the scaling factor for the damage dinosaurs deal with their attacks. The
+            default value 1 provides normal damage. Higher values increase damage. Lower values
+            decrease it.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DinoDamageMultiplier">
+          </td>
+        </tr>
+        <tr>
+          <td>DinoResistanceMultiplier</td>
+          <td>Specifies the scaling factor for the resistance to damage dinosaurs receive when
+            attacked. The default value 1 provides normal damage. Higher values decrease
+            resistance, increasing damage per attack. Lower values increase it, reducing damage per
+            attack. A value of 0.5 results in a dino taking half damage while a value of 2.0 would
+            result in a dino taking double normal damage.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DinoResistanceMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>globalVoiceChat</td>
+          <td>Voice chat turns global</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.globalVoiceChat"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>HarvestAmountMultiplier</td>
+          <td>Specifies the scaling factor for yields from all harvesting activities (chopping down
+            trees, picking berries, carving carcasses, mining rocks, etc.). Higher values increase
+            the amount of materials harvested with each strike.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.HarvestAmountMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>HarvestHealthMultiplier</td>
+          <td>Specifies the scaling factor for the \"health\" of items that can be harvested (trees,
+            rocks, carcasses, etc.). Higher values increase the amount of damage (i.e. \"number of
+            strikes\") such objects can withstand before being destroyed, which results in higher
+            overall harvest yields.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.HarvestHealthMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>MaxStructuresInRange</td>
+          <td>(OUTDATED) Specifies the maximum number of structures that can be constructed within a
+            certain (currently hard-coded) range.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.MaxStructuresInRange">
+          </td>
+        </tr>
+
+        <tr>
+          <td>noTributeDownloads</td>
+          <td>Disables downloading characters from other servers</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.noTributeDownloads"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PreventDownloadSurvivors</td>
+          <td>Prevents the download of survivors
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PreventDownloadSurvivors"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PreventDownloadItems</td>
+          <td>Prevents the download of items
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PreventDownloadItems"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PreventDownloadDinos</td>
+          <td>Prevents the download of dinos
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PreventDownloadDinos"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PlayerCharacterFoodDrainMultiplier</td>
+          <td>Specifies the scaling factor for player characters\' food consumption. Higher values
+            increase food consumption (player characters get hungry faster).</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerCharacterFoodDrainMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PlayerCharacterHealthRecoveryMultiplier</td>
+          <td>Specifies the scaling factor for player characters\' health recovery. Higher values
+            increase the recovery rate (player characters heal faster).
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerCharacterHealthRecoveryMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PlayerCharacterStaminaDrainMultiplier</td>
+          <td>Specifies the scaling factor for player characters\' stamina consumption. Higher values
+            increase stamina consumption (player characters get tired faster).</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerCharacterStaminaDrainMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PlayerCharacterWaterDrainMultiplier</td>
+          <td>Specifies the scaling factor for player characters\' water consumption. Higher values
+            increase water consumption (player characters get thirsty faster).</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerCharacterWaterDrainMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PlayerDamageMultiplier</td>
+          <td>Specifies the scaling factor for the damage players deal with their attacks. The
+            default value 1 provides normal damage. Higher values increase damage. Lower values
+            decrease it.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerDamageMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PlayerResistanceMultiplier</td>
+          <td>Specifies the scaling factor for the resistance to damage players receive when
+            attacked. The default value 1 provides normal damage. Higher values decrease
+            resistance, increasing damage per attack. Lower values increase it, reducing damage per
+            attack. A value of 0.5 results in a player taking half damage while a value of 2.0
+            would result in taking double normal damage.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PlayerResistanceMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>proximityChat</td>
+          <td>Only players near each other can see their chat messages</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.proximityChat"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ResourceNoReplenishRadiusPlayers</td>
+          <td>Defines the distance where there are no resources respawning when being close to a
+            player</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.ResourceNoReplenishRadiusPlayers">
+          </td>
+        </tr>
+
+        <tr>
+          <td>ResourceNoReplenishRadiusStructures</td>
+          <td>Defines the distance where there are no resources respawning when being close to a
+            structure</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.ResourceNoReplenishRadiusStructures">
+          </td>
+        </tr>
+
+        <tr>
+          <td>ResourcesRespawnPeriodMultiplier</td>
+          <td>Specifies the scaling factor for the respawn rate for resource nodes (trees, rocks,
+            bushes, etc.). Lower values cause nodes to respawn more frequently.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.ResourcesRespawnPeriodMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>ServerAdminPassword</td>
+          <td>If specified, players must provide this password (via the in-game console) to gain
+            access to administrator commands on the server.
+          </td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.ServerAdminPassword" ></td>
+        </tr>
+
+        <tr>
+          <td>ServerCrosshair</td>
+          <td>Shows crosshair
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.ServerCrosshair"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>serverForceNoHud</td>
+          <td>HUD always disabled
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.serverForceNoHud"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>serverHardcore</td>
+          <td>Enables hardcore mode (player characters revert to level 1 upon death)
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowCaveBuildingPvE"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ServerPassword</td>
+          <td>If specified, players must provide this password to join the server.</td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.ServerPassword"></td>
+        </tr>
+
+        <tr>
+          <td>serverPVE</td>
+          <td>Disables PvP, enables PvE
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.serverPVE"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ShowMapPlayerLocation</td>
+          <td>Show each player their own precise position when they view their map
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.ShowMapPlayerLocation"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>StructureDamageMultiplier</td>
+          <td>Specifies the scaling factor for the damage structures deal with their attacks (i.e.
+            spiked walls). The default value 1 provides normal damage. Higher values increase
+            damage. Lower values decrease it.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.StructureDamageMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>StructureResistanceMultiplier</td>
+          <td>Specifies the scaling factor for the resistance to damage structures receive when
+            attacked. The default value 1 provides normal damage. Higher values decrease
+            resistance, increasing damage per attack. Lower values increase it, reducing damage per
+            attack. A value of 0.5 results in a structure taking half damage while a value of 2.0
+            would result in a structure taking double normal damage.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.StructureResistanceMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>TamedDinoDamageMultiplier</td>
+          <td>Specifies the scaling factor for tamed dinosaurs damage. A value of 2.0 doubles the
+            inital amount, a value of 0.5 halfes it.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.TamedDinoDamageMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>TamedDinoResistanceMultiplier</td>
+          <td>Specifies the scaling factor for dinosaurs fortitude. A value of 2.0 doubles the inital
+            amount, a value of 0.5 halfes it.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.TamedDinoResistanceMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>TamingSpeedMultiplier</td>
+          <td>Specifies the scaling factor for dinosaur taming speed. A value of 2.0 doubles the
+            inital amount, a value of 0.5 halfes it.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.TamingSpeedMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>XPMultiplier</td>
+          <td>Specifies the scaling factor for the experience received by players, tribes and
+            dinosaurs for various actions. The default value 1 provides the same amounts of
+            experience as in the singleplayer experience (and official public servers). Higher
+            values increase XP amounts awarded for various actions; lower values decrease it.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.XPMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>EnablePVPGamma</td>
+          <td>Allows or disallows usage of gamma on PVP servers
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.EnablePVPGamma"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>EnablePVEGamma</td>
+          <td>Allows or disallows usage of gamma on PVE servers
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.EnablePVEGamma"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>SpectatorPassword</td>
+          <td>To use non-admin spectator, the server must specify a spectator password. Then any
+            client can use these console commands: requestspectator password and stopspectating.
+              See patch 191.0 for more information and hotkeys.
+          </td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.SpectatorPassword"></td>
+        </tr>
+
+        <tr>
+          <td>DifficultyOffset</td>
+          <td>Specifies the difficulty level.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.DifficultyOffset">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PvEStructureDecayPeriodMultiplier</td>
+          <td>Specifies the scaling factor for the decay rate of player structures in PvE mode. The
+            specific effect(s) of this option and its range of valid values are unknown as of this
+            writing.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PvEStructureDecayPeriodMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PvEStructureDecayDestructionPeriod</td>
+          <td>Specifies the time required for player structures to decay in PvE mode. The specific
+            effect(s) of this option and its range of valid values are unknown as of this writing.
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PvEStructureDecayDestructionPeriod">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Banlist</td>
+          <td>Uses the global banlist of ARK to disallow players\' access who have been identified as
+            cheaters
+          </td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.Banlist"></td>
+        </tr>
+
+        <tr>
+          <td>PvPStructureDecay</td>
+          <td>Activates (true) oder deactivates (false) the structure decay on PVP servers
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PvPStructureDecay"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>DisableDinoDecayPvE</td>
+          <td>Deactivates the unclaiming functions for dinosaurs on PVE servers
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.DisableDinoDecayPvE"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>PvEDinoDecayPeriodMultiplier</td>
+          <td>Multiplier value for the unclaiming speed of dinosaurs
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PvEDinoDecayPeriodMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>AdminLogging</td>
+          <td>Enables the output of cheat commands that admins used (will be shown in chat)
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AdminLogging"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>MaxTamedDinos</td>
+          <td>Defines the maximum amount of tamed dinos on the island
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.MaxTamedDinos">
+          </td>
+        </tr>
+
+        <tr>
+          <td>MaxNumbersofPlayersInTribe</td>
+          <td>SOTF setting: Defines the maximum player limit per tribe
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.MaxNumbersofPlayersInTribe">
+          </td>
+        </tr>
+
+        <tr>
+          <td>BattleNumOfTribestoStartGame</td>
+          <td>SOTF setting: Defines how many tribes must have been created before the countdown for
+            game start begins
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.BattleNumOfTribestoStartGame">
+          </td>
+        </tr>
+
+        <tr>
+          <td>TimeToCollapseROD</td>
+          <td>SOTF setting: Defines the time period for the force field to collapse
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.TimeToCollapseROD">
+          </td>
+        </tr>
+
+        <tr>
+          <td>BattleAutoStartGameInterval</td>
+          <td>SOTF setting: Defines the length of the countdown before match begins
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.BattleAutoStartGameInterval">
+          </td>
+        </tr>
+
+        <tr>
+          <td>BattleSuddenDeathInterval</td>
+          <td>SOTF setting: Defines the time before sudden death starts
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.BattleSuddenDeathInterval">
+          </td>
+        </tr>
+
+        <tr>
+          <td>KickIdlePlayersPeriod</td>
+          <td>Time period until an idling player will be kicked from server
+          </td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.KickIdlePlayersPeriod">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PerPlatformMaxStructuresMultiplier</td>
+          <td>Defines the multiplicator for structures on saddle plattforms (Please use with caution
+            - too high values may lead to a massive lack of performance)</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PerPlatformMaxStructuresMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>StructureDamageRepairCooldown</td>
+          <td>Defines the cooldown time when a previously damaged structure can be repaired again. (0
+            allows the structure to be always repaired)</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.StructureDamageRepairCooldown">
+          </td>
+        </tr>
+
+        <tr>
+          <td>bForceAllStructureLocking</td>
+          <td> Server Option to allow Locking All Item Containers</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bForceAllStructureLocking"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>AutoDestroyOldStructuresMultiplier</td>
+          <td>Server Option to allow Auto-Destroying Structures after sufficient \\\\\\\"no nearby
+            Tribe\\\\\\\" time has passed (defined as a multiplier of the Allow Claim period)</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.AutoDestroyOldStructuresMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>bUseVSync</td>
+          <td>Deactivates the VSync setting (can reduce GPU problems in some cases)</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bUseVSync"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>MaxPlatformSaddleStructureLimit</td>
+          <td>Defines the maximum number of structures on top of the saddle platform</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.MaxPlatformSaddleStructureLimit">
+          </td>
+        </tr>
+
+        <tr>
+          <td>bPassiveDefensesDamageRiderlessDinos</td>
+          <td>Wild dinos or dinos without a rider can take damage from defense structures like
+            spikewalls if this setting is activated</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPassiveDefensesDamageRiderlessDinos"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>RCONPort</td>
+          <td>Under which port RCON should be available?</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.RCONPort">
+          </td>
+        </tr>
+
+        <tr>
+          <td>AutoSavePeriodMinutes</td>
+          <td>After which time period (in minutes) the server should auto-save the game? (Hint: A
+            more frequent interval may lead some lags)</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.AutoSavePeriodMinutes">
+          </td>
+        </tr>
+
+        <tr>
+          <td>RCONServerGameLogBuffer</td>
+          <td>How many chat lines should be available in RCON?</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.RCONServerGameLogBuffer">
+          </td>
+        </tr>
+
+        <tr>
+          <td>OverrideStructurePlatformPrevention</td>
+          <td>Determines if turrets are allowed on moving platforms or not. Yes will prevent it. No
+            will allow it</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.OverrideStructurePlatformPrevention"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PreventOfflinePvPInterval</td>
+          <td>Defines the time period of being offline so that a player will be really considered as
+            being offline.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PreventOfflinePvPInterval">
+          </td>
+        </tr>
+
+        <tr>
+          <td>bPvPDinoDecay</td>
+          <td>Determines if dinos of a player/tribe are also protected in the activated offline raid
+            protection</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPvPDinoDecay"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>bPvPStructureDecay</td>
+          <td>Determines if structures of a player/tribe are also protected in the activated offline
+            raid protection</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPvPStructureDecay"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>DisableImprintDinoBuff</td>
+          <td>Deactivates (no) the bonus stats for a dino if you raise the baby by yourself</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.DisableImprintDinoBuff"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>AllowAnyoneBabyImprintCuddle</td>
+          <td>Allows everybody to kuddle with the dino baby</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowAnyoneBabyImprintCuddle"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>EnableExtraStructurePreventionVolumes</td>
+          <td>Prevents the building of structures on places which are rich of resources</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.EnableExtraStructurePreventionVolumes"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ShowFloatingDamageText</td>
+          <td>Shows dealt damages in a RPG style</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.ShowFloatingDamageText"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>DestroyUnconnectedWaterPipes</td>
+          <td>If active, it will destroy the pipes automatically after two real-time days, if
+            unconnected to any non-pipe (directly or indirectly) and no allied player is nearby.
+          </td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.DestroyUnconnectedWaterPipes"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>OverrideOfficialDifficulty</td>
+          <td>Overwrites the difficulty settings</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.OverrideOfficialDifficulty">
+          </td>
+        </tr>
+
+        <tr>
+          <td>TheMaxStructuresInRange</td>
+          <td>New value for the maximum allowed structures nearby</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.TheMaxStructuresInRange">
+          </td>
+        </tr>
+
+        <tr>
+          <td>MinimumDinoReuploadInterval</td>
+          <td>Number of seconds cooldown between allowed Dino re-uploads (defaults to 0, set to 43200
+            on Official Servers which is 12 hours). Remaining cooldown time is displayed on the
+            Dino Upload UI.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.MinimumDinoReuploadInterval">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PvEAllowStructuresAtSupplyDrops</td>
+          <td>Use "true" if you want to allow being able to build structures nearby supply drop.
+            "false" will disable it.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PvEAllowStructuresAtSupplyDrops"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>NPCNetworkStasisRangeScalePlayerCountStart</td>
+          <td>a new Wild NPC Stasis Range scaling-for-player-count option to scale server performance
+            for more players</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.NPCNetworkStasisRangeScalePlayerCountStart">
+          </td>
+        </tr>
+
+        <tr>
+          <td>NPCNetworkStasisRangeScalePlayerCountEnd</td>
+          <td>a new Wild NPC Stasis Range scaling-for-player-count option to scale server performance
+            for more players</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.NPCNetworkStasisRangeScalePlayerCountEnd">
+          </td>
+        </tr>
+
+        <tr>
+          <td>NPCNetworkStasisRangeScalePercentEnd</td>
+          <td>a new Wild NPC Stasis Range scaling-for-player-count option to scale server performance
+            for more players</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.NPCNetworkStasisRangeScalePercentEnd">
+          </td>
+        </tr>
+
+        <tr>
+          <td>MaxPersonalTamedDinos</td>
+          <td>Quantity of dinos that a tribe is allowed to have (Default on official PVE servers is
+            500)</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.MaxPersonalTamedDinos">
+          </td>
+        </tr>
+
+        <tr>
+          <td>AutoDestroyDecayedDinos</td>
+          <td>Option to auto-destroy claimable decayed dinos on load, rather than have them remain
+            around as claimable. Official PvE servers now have this enabled.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AutoDestroyDecayedDinos"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ClampItemSpoilingTimes</td>
+          <td>Will clamp all spoiling times to the items' maximum spoiling times. Useful if any
+            infinite-spoiling exploits were used on the server and you wish to clean them up. Could
+            potentially cause issues with Mods that alter spoiling time, hence it is an option.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.ClampItemSpoilingTimes"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>UseOptimizedHarvestingHealth</td>
+          <td>Server custom "HarvestAmountMultiplier" now works as it used to, to bias towards
+            yielding rarer items. This is more costly for server performance, so if you want a more
+            "optimized" server with high HarvestAmountMultiplier (but less rare items), you can
+            launch with "yes" in this setting here.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.UseOptimizedHarvestingHealth"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>AllowCrateSpawnsOnTopOfStructures</td>
+          <td>Servers can now allow from-the-air Supply Crates to appear on top of Structures, rather
+            than being prevented by Structures. Enabled on Official Servers.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowCrateSpawnsOnTopOfStructures"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ForceFlyerExplosives</td>
+          <td>Made all Flyers except for Quetz and Wyvern become 'grounded' if you put a C4 on them.
+            To disable this behavior, launch server with "yes"</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.ForceFlyerExplosives"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PreventOfflinePvP</td>
+          <td>Enables ORP on PVE/PVP servers if set to "yes"</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PreventOfflinePvP"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>AllowFlyingStaminaRecovery</td>
+          <td>Flyer Nerf (to allow server to recover Stamina when standing on a Flyer, run with "yes"</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowFlyingStaminaRecovery"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>AllowMultipleAttachedC4</td>
+          <td>Limited one C4 attached per dino, unless you choose "yes" to allow more than one C4</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowMultipleAttachedC4"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>OxygenSwimSpeedStatMultiplier</td>
+          <td>Use this to set how swim speed is multiplied by level spent in oxygen.</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.OxygenSwimSpeedStatMultiplier">
+          </td>
+        </tr>
+
+        <tr>
+          <td>bPvEDisableFriendlyFire</td>
+          <td>When using "yes", you are now able to harvest a slaughtered Ovis.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPvEDisableFriendlyFire"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>ServerAutoForceRespawnWildDinosInterval</td>
+          <td>This will force respawns of dinos on servers to prevent certain dino types (like the
+            Basilo and Spino) from becoming depopulated on long running servers. Specify a value in
+            seconds (86400 means a forced respawn after one day (realtime) for example)</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.ServerAutoForceRespawnWildDinosInterval">
+          </td>
+        </tr>
+
+        <tr>
+          <td>DisableWeatherFog</td>
+          <td>Server option to disable fog.</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.DisableWeatherFog"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>RandomSupplyCratePoints</td>
+          <td>Server Option to make Supply Crates random</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.RandomSupplyCratePoints"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>CrossARKAllowForeignDinoDownloads</td>
+          <td>This allows you to download Non-Aberration Dinos on Aberration</td>
+          <td>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.CrossARKAllowForeignDinoDownloads"></mat-slide-toggle> YES
+          </td>
+        </tr>
+
+        <tr>
+          <td>PersonalTamedDinosSaddleStructureCost</td>
+          <td>Defines how many tame slots are being used by a saddle platform (with structures) -
+            Default: 19</td>
+          <td>
+            <input type="number" class="form-control" [(ngModel)]="config.PersonalTamedDinosSaddleStructureCost">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button type="button" class="btn btn-primary" (click)="generate()">Generate</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

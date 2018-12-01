@@ -1,0 +1,414 @@
+<div class="container-fluid" style="padding:15px;">
+
+  <div class="row">
+
+    <div class="col-sm">
+
+      <table>
+        <tr>
+          <th>
+            <h1>Human Stats</h1>
+            <hr>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Health">Health</label>
+              <input type="number" class="form-control" id="human_Health" placeholder="Health" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Health)}"
+                [(ngModel)]="human_stats.Health">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Stamina">Stamina</label>
+              <input type="number" class="form-control" id="human_Stamina" placeholder="Stamina" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Stamina)}"
+                [(ngModel)]="human_stats.Stamina">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Torpidity">Torpidity</label>
+              <input type="number" class="form-control" id="human_Torpidity" placeholder="Torpidity" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Torpidity)}"
+                [(ngModel)]="human_stats.Torpidity">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Oxygen">Oxygen</label>
+              <input type="number" class="form-control" id="human_Oxygen" placeholder="Oxygen" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Oxygen)}"
+                [(ngModel)]="human_stats.Oxygen">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Food">Food</label>
+              <input type="number" class="form-control" id="human_Food" placeholder="Food" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Food)}"
+                [(ngModel)]="human_stats.Food">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Water">Water</label>
+              <input type="number" class="form-control" id="human_Water" placeholder="Water" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Water)}"
+                [(ngModel)]="human_stats.Water">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Temperature">Temperature</label>
+              <input type="number" class="form-control" id="human_Temperature" placeholder="Temperature" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Temperature)}"
+                [(ngModel)]="human_stats.Temperature">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Weight">Weight</label>
+              <input type="number" class="form-control" id="human_Weight" placeholder="Weight" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Weight)}"
+                [(ngModel)]="human_stats.Weight">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Melee">Melee</label>
+              <input type="number" class="form-control" id="human_Melee" placeholder="Melee" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Melee)}"
+                [(ngModel)]="human_stats.Melee">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Speed">Speed</label>
+              <input type="number" class="form-control" id="human_Speed" placeholder="Speed" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Speed)}"
+                [(ngModel)]="human_stats.Speed">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Temperature_Fortitude">Temperature Fortitude</label>
+              <input type="number" class="form-control" id="human_Temperature_Fortitude" placeholder="Temperature Fortitude"
+                [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Temperature_Fortitude)}"
+                [(ngModel)]="human_stats.Temperature_Fortitude">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="human_Crafting">Crafting</label>
+              <input type="number" class="form-control" id="human_Crafting" placeholder="Crafting" [ngClass]="{'error-validation': !human_stats.validateValue(human_stats.Crafting)}"
+                [(ngModel)]="human_stats.Crafting">
+            </div>
+          </td>
+        </tr>
+
+
+      </table>
+
+    </div>
+
+
+    <div class="col-sm">
+
+      <table>
+        <th>
+          <h1>Tamed Dino Stats</h1>
+          <hr>
+        </th>
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Health">Health</label>
+              <input type="number" class="form-control" id="tamed_Health" placeholder="Health" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Health)}"
+                [(ngModel)]="dino_tamed_stats.Health">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Stamina">Stamina</label>
+              <input type="number" class="form-control" id="tamed_Stamina" placeholder="Stamina" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Stamina)}"
+                [(ngModel)]="dino_tamed_stats.Stamina">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Torpidity">Torpidity</label>
+              <input type="number" class="form-control" id="tamed_Torpidity" placeholder="Torpidity" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Torpidity)}"
+                [(ngModel)]="dino_tamed_stats.Torpidity">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Oxygen">Oxygen</label>
+              <input type="number" class="form-control" id="tamed_Oxygen" placeholder="Oxygen" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Oxygen)}"
+                [(ngModel)]="dino_tamed_stats.Oxygen">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Food">Food</label>
+              <input type="number" class="form-control" id="tamed_Food" placeholder="Food" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Food)}"
+                [(ngModel)]="dino_tamed_stats.Food">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Water">Water</label>
+              <input type="number" class="form-control" id="tamed_Water" placeholder="Water" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Water)}"
+                [(ngModel)]="dino_tamed_stats.Water">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Temperature">Temperature</label>
+              <input type="number" class="form-control" id="tamed_Temperature" placeholder="Temperature" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Temperature)}"
+                [(ngModel)]="dino_tamed_stats.Temperature">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Weight">Weight</label>
+              <input type="number" class="form-control" id="tamed_Weight" placeholder="Weight" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Weight)}"
+                [(ngModel)]="dino_tamed_stats.Weight">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Melee">Melee</label>
+              <input type="number" class="form-control" id="tamed_Melee" placeholder="Melee" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Melee)}"
+                [(ngModel)]="dino_tamed_stats.Melee">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Speed">Speed</label>
+              <input type="number" class="form-control" id="tamed_Speed" placeholder="Speed" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Speed)}"
+                [(ngModel)]="dino_tamed_stats.Speed">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Temperature_Fortitude">Temperature Fortitude</label>
+              <input type="number" class="form-control" id="tamed_Temperature_Fortitude" placeholder="Temperature Fortitude"
+                [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Temperature_Fortitude)}"
+                [(ngModel)]="dino_tamed_stats.Temperature_Fortitude">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="tamed_Crafting">Crafting</label>
+              <input type="number" class="form-control" id="tamed_Crafting" placeholder="Crafting" [ngClass]="{'error-validation': !dino_tamed_stats.validateValue(dino_tamed_stats.Crafting)}"
+                [(ngModel)]="dino_tamed_stats.Crafting">
+            </div>
+          </td>
+        </tr>
+
+
+      </table>
+
+    </div>
+
+
+    <div class="col-sm">
+
+      <table>
+        <th>
+          <h1>Wild Dino Stats</h1>
+          <hr>
+        </th>
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Health">Health</label>
+              <input type="number" class="form-control" id="wild_Health" placeholder="Health" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Health)}"
+                [(ngModel)]="dino_wild_stats.Health">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Stamina">Stamina</label>
+              <input type="number" class="form-control" id="wild_Stamina" placeholder="Stamina" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Stamina)}"
+                [(ngModel)]="dino_wild_stats.Stamina">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Torpidity">Torpidity</label>
+              <input type="number" class="form-control" id="wild_Torpidity" placeholder="Torpidity" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Torpidity)}"
+                [(ngModel)]="dino_wild_stats.Torpidity">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Oxygen">Oxygen</label>
+              <input type="number" class="form-control" id="wild_Oxygen" placeholder="Oxygen" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Oxygen)}"
+                [(ngModel)]="dino_wild_stats.Oxygen">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Food">Food</label>
+              <input type="number" class="form-control" id="wild_Food" placeholder="Food" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Food)}"
+                [(ngModel)]="dino_wild_stats.Food">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Water">Water</label>
+              <input type="number" class="form-control" id="wild_Water" placeholder="Water" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Water)}"
+                [(ngModel)]="dino_wild_stats.Water">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Temperature">Temperature</label>
+              <input type="number" class="form-control" id="wild_Temperature" placeholder="Temperature" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Temperature)}"
+                [(ngModel)]="dino_wild_stats.Temperature">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Weight">Weight</label>
+              <input type="number" class="form-control" id="wild_Weight" placeholder="Weight" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Weight)}"
+                [(ngModel)]="dino_wild_stats.Weight">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Melee">Melee</label>
+              <input type="number" class="form-control" id="wild_Melee" placeholder="Melee" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Melee)}"
+                [(ngModel)]="dino_wild_stats.Melee">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+              <div class="form-group">
+                <label for="wild_Speed">Speed</label>
+                <input type="number" class="form-control" id="wild_Speed" placeholder="Speed" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Speed)}"
+                  [(ngModel)]="dino_wild_stats.Speed">
+              </div>
+            </td>
+          </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Temperature_Fortitude">Temperature Fortitude</label>
+              <input type="number" class="form-control" id="wild_Temperature_Fortitude" placeholder="Temperature Fortitude"
+                [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Temperature_Fortitude)}"
+                [(ngModel)]="dino_wild_stats.Temperature_Fortitude">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="form-group">
+              <label for="wild_Crafting">Crafting</label>
+              <input type="number" class="form-control" id="wild_Crafting" placeholder="Crafting" [ngClass]="{'error-validation': !dino_wild_stats.validateValue(dino_wild_stats.Crafting)}"
+                [(ngModel)]="dino_wild_stats.Crafting">
+            </div>
+          </td>
+        </tr>
+
+
+      </table>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <button class="btn" (click)="generate()">Generate Config</button>
+  </div>
+
+</div>

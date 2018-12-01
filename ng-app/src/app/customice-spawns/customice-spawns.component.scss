@@ -1,0 +1,93 @@
+.col-sm {
+    height: -webkit-fill-available;
+    overflow-y: scroll;
+}
+
+span.a {
+    color: #3f51b5;
+    cursor: pointer;
+}
+
+span.a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background: #3f51b5;
+    color: white;
+    width: 100%;
+}
+
+.title-entry {
+    font-size: 1.2em;
+    width: 100%;
+    border-bottom: 1px solid #d6d3d3;
+    padding: 14px 0
+}
+
+.green {
+    color: #00710a;
+}
+
+.red {
+    color: red;
+}
+
+#container-path {
+    /* This bit sets up the horizontal layout */
+    display: flex;
+    flex-direction: row;
+    /* This bit draws the box around it */
+    // border:1px solid grey;
+    padding: 2px;
+    padding: 0 0 15px 0
+}
+
+#txt-path {
+    /* Tell the input to use all the available space */
+    flex-grow: 2;
+    /* And hide the input's outline, so the form looks like the outline */
+    // border:none;
+}
+
+#btn-path {
+    /* Just a little styling to make it pretty */
+    background: #3f51b5;
+    color: white;
+    padding-right: 25px;
+}
+
+table {
+    width: 100%
+}
+
+.td-input-stats {
+    width: 100px;
+}
+
+.btn-delete {
+    float: left;
+    font-size: 2.5em;
+    cursor: pointer;
+    color: #b94e4e;
+    padding-left: 22px;
+}
+
+.btn-delete:hover {
+    color: red;
+}
+
+.error-validation {
+    border: 1px solid red;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.23);
+}
+
+th {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.btn-50 {
+    width: 49% !important;
+    margin-left: 1%;
+}

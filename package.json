@@ -1,22 +1,17 @@
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Electron Angular Ark Tools Server",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "test": "cd ng-app && ng build --output-path dist --base-href . && cd ..",
+    "start": "cd ng-app && ng build --output-path dist --base-href . && cd ..  && electron .",
+    "build": "npm test && electron-packager ./ ElectronArkToolsServer --platform=win32 --arch=x64 --overwrite"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
+  "author": "Megatone",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^3.0.7"
+    "electron": "^3.0.10",
+    "electron-packager": "^12.2.0"
   }
 }
