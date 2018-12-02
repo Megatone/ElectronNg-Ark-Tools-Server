@@ -21,7 +21,7 @@
       <span>{{title}}</span>
     </mat-toolbar>
     <div style="margin-top:64px"></div>
-    <router-outlet></router-outlet>
+    <router-outlet (activate)="onActivate($event)"></router-outlet>
   </mat-sidenav-content>
 
 </mat-sidenav-container>

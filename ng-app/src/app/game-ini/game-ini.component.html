@@ -6,10 +6,9 @@
         <tr>
           <th colspan="3">/script/shootergame.shootergamemode]</th>
         </tr>
-        <!--
-          <tr>
+        <tr>
           <td>GlobalSpoilingTimeMultiplier</td>
-             <td style="width: 150px;">
+          <td style="width: 150px;">
             <input type="number" class="form-control" [(ngModel)]="config.GlobalSpoilingTimeMultiplier">
           </td>
           <td>Scales the spoiling time of perishables globally. Higher values prolong the time. (Note: As of patch
@@ -18,27 +17,6 @@
           </td>
 
         </tr>
-        <tr>
-          <th colspan="3">[SessionSettings]</th>
-        </tr>
-        <tr>
-
-          <td>Name of your server
-          </td>
-          <td><input type="text" class="form-control" [(ngModel)]="config.SessionName"></td>
-           <td>SessionName</td>
-        </tr>
-
-
-        <tr>
-          <td>allowThirdPersonPlayer</td>
-
-          <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.allowThirdPersonPlayer"></mat-slide-toggle> YES
-          </td>
-            <td>Enables 3rd Person view</td>
-        </tr> -->
-        <!-- AAki -->
         <tr>
           <td>GlobalItemDecompositionTimeMultiplier</td>
           <td style="width: 150px;">
@@ -457,6 +435,8 @@
         </tr>
         <tr>
           <td colspan="3">
+            <input type="file" id="file" style="display:none" (change)="onloadConfig($event)" accept=".json">
+            <button type="button" class="btn btn-primary" (click)="importConfig()">Import Config</button>
             <button type="button" class="btn btn-primary" (click)="generate()">Generate</button>
           </td>
         </tr>

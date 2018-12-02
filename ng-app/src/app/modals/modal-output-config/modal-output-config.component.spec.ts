@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OutputCustomStatsComponent } from './output-custom-stats.component';
+import { ModalOutputConfigComponent } from './modal-output-config.component';
 
-describe('OutputCustomStatsComponent', () => {
-  let component: OutputCustomStatsComponent;
-  let fixture: ComponentFixture<OutputCustomStatsComponent>;
+describe('ModalOutputConfigComponent', () => {
+  let component: ModalOutputConfigComponent;
+  let fixture: ComponentFixture<ModalOutputConfigComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OutputCustomStatsComponent ]
+      declarations: [ ModalOutputConfigComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OutputCustomStatsComponent);
+    fixture = TestBed.createComponent(ModalOutputConfigComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Stats } from '../services/models/Stats';
 import { StorageService } from '../services/storage.service';
-import { OutputCustomStatsComponent } from './modal/output-custom-stats/output-custom-stats.component';
 import { MatDialog } from '@angular/material';
+import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-output-config.component';
 
 @Component({
   selector: 'app-customice-stats',
@@ -35,11 +35,18 @@ export class CustomiceStatsComponent implements OnInit {
       this.storage.setStats(this.human_stats);
       this.storage.setStats(this.dino_tamed_stats);
       this.storage.setStats(this.dino_wild_stats);
-      this.dialog.open(OutputCustomStatsComponent, {
+      this.dialog.open(ModalOutputConfigComponent, {
         height: '600px',
         width: '900px',
         data: {
-          stats: [
+          config: [
+            this.human_stats,
+            this.dino_tamed_stats,
+            this.dino_wild_stats
+          ].map((stat) => {
+            return stat.toDataConfig();
+          }).join(''),
+          object: [
             this.human_stats,
             this.dino_tamed_stats,
             this.dino_wild_stats

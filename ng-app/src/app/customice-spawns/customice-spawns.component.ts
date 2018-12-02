@@ -9,7 +9,8 @@ import { ElectronService } from 'ngx-electron';
 import { StorageService } from '../services/storage.service';
 import * as cloner from 'lodash';
 import { MatDialog } from '@angular/material';
-import { OutputSpawnConfigComponent } from './modal/output-spawn-config/output-spawn-config.component';
+import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-output-config.component';
+
 
 
 @Component({
@@ -135,10 +136,13 @@ export class CustomiceSpawnsComponent implements OnInit {
 
   public generate(): void {
     if (this.map_spawn.validateDataConfig()) {
-      this.dialog.open(OutputSpawnConfigComponent, {
+      this.dialog.open(ModalOutputConfigComponent, {
         height: '600px',
         width: '900px',
-        data: { map: this.map_spawn },
+        data: {
+          config: this.map.toDataConfig(),
+          object: this.map
+         },
         hasBackdrop: true
       });
     } else {

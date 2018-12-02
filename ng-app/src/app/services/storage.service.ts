@@ -72,6 +72,6 @@ export class StorageService {
       stats.Temperature_Fortitude = stats_stored.Temperature_Fortitude;
       stats.Crafting = stats_stored.Crafting;
     }
-    return stats.validate ? stats : new Stats(stats.name);
+    return stats.validate() ? stats : new Stats(stats.name);
   }
 }

@@ -34,8 +34,7 @@ import { FormsModule } from '@angular/forms';
 import { NgxFsModule } from 'ngx-fs';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { NgxElectronModule } from 'ngx-electron';
-import { OutputSpawnConfigComponent } from './customice-spawns/modal/output-spawn-config/output-spawn-config.component';
-import { OutputCustomStatsComponent } from './customice-stats/modal/output-custom-stats/output-custom-stats.component';
+import { ModalOutputConfigComponent } from './modals/modal-output-config/modal-output-config.component';
 
 @NgModule({
   declarations: [
@@ -49,8 +48,7 @@ import { OutputCustomStatsComponent } from './customice-stats/modal/output-custo
     CustomiceHarvestComponent,
     CustomiceLevelComponent,
     CustomiceEngramsComponent,
-    OutputSpawnConfigComponent,
-    OutputCustomStatsComponent
+    ModalOutputConfigComponent
   ],
   imports: [
     BrowserModule,
@@ -76,11 +74,10 @@ import { OutputCustomStatsComponent } from './customice-stats/modal/output-custo
     MatInputModule
   ],
   providers: [
-    {provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}
+    { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } }
   ],
   entryComponents: [
-    OutputSpawnConfigComponent,
-    OutputCustomStatsComponent
+    ModalOutputConfigComponent
   ],
   bootstrap: [
     AppComponent
