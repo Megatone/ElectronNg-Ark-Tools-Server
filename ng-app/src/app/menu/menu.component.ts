@@ -6,7 +6,7 @@ import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 
 
 @Component({
-  selector: 'menu',
+  selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss'],
 })
@@ -20,7 +20,10 @@ export class MenuComponent {
 
   public title: String = 'Home';
 
-  public constructor(private breakpointObserver: BreakpointObserver, private router: Router) {
+  public constructor(
+    private breakpointObserver: BreakpointObserver,
+    private router: Router
+  ) {
     this.router.events.subscribe(event => {
       if (event instanceof RoutesRecognized) {
         const route = event.state.root.firstChild;

@@ -14,11 +14,11 @@ import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-
 
 
 @Component({
-  selector: 'app-customice-spawns',
-  templateUrl: './customice-spawns.component.html',
-  styleUrls: ['./customice-spawns.component.scss']
+  selector: 'app-custom-spawns',
+  templateUrl: './custom-spawns.component.html',
+  styleUrls: ['./custom-spawns.component.scss']
 })
-export class CustomiceSpawnsComponent implements OnInit {
+export class CustomSpawnsComponent implements OnInit {
 
   private mods_path: String = '';
   private mods_BASE: Array<Mod> = [];
@@ -99,7 +99,6 @@ export class CustomiceSpawnsComponent implements OnInit {
   public checkDino(dino: Dino): void {
     if (this.active_entry_name !== '') {
       this.getActiveSpawnEntry().checkDino(dino);
-      this.storage.setSpawnEntries(this.map_spawn);
     }
   }
 
@@ -136,12 +135,13 @@ export class CustomiceSpawnsComponent implements OnInit {
 
   public generate(): void {
     if (this.map_spawn.validateDataConfig()) {
+      this.storage.setSpawnEntries(this.map_spawn);
       this.dialog.open(ModalOutputConfigComponent, {
         height: '600px',
         width: '900px',
         data: {
           config: this.map_spawn.toDataConfig(),
-          object: this.map_spawn,
+          object: this.map_spawn.clear(),
           fileName: 'CustomSpawns'
         },
         hasBackdrop: true
@@ -150,6 +150,7 @@ export class CustomiceSpawnsComponent implements OnInit {
       alert('BAD Config');
     }
   }
+
 
   public cloneMods(): Array<Mod> {
     return cloner.cloneDeep(this.mods_BASE);

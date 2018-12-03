@@ -25,11 +25,11 @@ import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { GameUserSettingsComponent } from './game-user-settings/game-user-settings.component';
 import { GameIniComponent } from './game-ini/game-ini.component';
-import { CustomiceSpawnsComponent } from './customice-spawns/customice-spawns.component';
-import { CustomiceStatsComponent } from './customice-stats/customice-stats.component';
-import { CustomiceHarvestComponent } from './customice-harvest/customice-harvest.component';
-import { CustomiceLevelComponent } from './customice-level/customice-level.component';
-import { CustomiceEngramsComponent } from './customice-engrams/customice-engrams.component';
+import { CustomSpawnsComponent } from './custom-spawns/custom-spawns.component';
+import { CustomStatsComponent } from './custom-stats/custom-stats.component';
+import { CustomHarvestComponent } from './custom-harvest/custom-harvest.component';
+import { CustomLevelComponent } from './custom-level/custom-level.component';
+import { CustomEngramsComponent } from './custom-engrams/custom-engrams.component';
 import { FormsModule } from '@angular/forms';
 import { NgxFsModule } from 'ngx-fs';
 import { NgxSpinnerModule } from 'ngx-spinner';
@@ -43,11 +43,11 @@ import { ModalOutputConfigComponent } from './modals/modal-output-config/modal-o
     HomeComponent,
     GameUserSettingsComponent,
     GameIniComponent,
-    CustomiceSpawnsComponent,
-    CustomiceStatsComponent,
-    CustomiceHarvestComponent,
-    CustomiceLevelComponent,
-    CustomiceEngramsComponent,
+    CustomSpawnsComponent,
+    CustomStatsComponent,
+    CustomHarvestComponent,
+    CustomLevelComponent,
+    CustomEngramsComponent,
     ModalOutputConfigComponent
   ],
   imports: [

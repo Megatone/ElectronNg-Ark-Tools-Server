@@ -5,11 +5,11 @@ import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-
 import { MatDialog } from '@angular/material';
 
 @Component({
-  selector: 'app-customice-harvest',
-  templateUrl: './customice-harvest.component.html',
-  styleUrls: ['./customice-harvest.component.scss']
+  selector: 'app-custom-harvest',
+  templateUrl: './custom-harvest.component.html',
+  styleUrls: ['./custom-harvest.component.scss']
 })
-export class CustomiceHarvestComponent implements OnInit {
+export class CustomHarvestComponent implements OnInit {
 
   private harvest: Harvest;
 

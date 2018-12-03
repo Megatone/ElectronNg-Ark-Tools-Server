@@ -87,7 +87,7 @@
             </mat-panel-title>
           </mat-expansion-panel-header>
 
-          <table>
+          <table *ngIf="entry.name === active_entry_name">
             <tbody>
               <tr>
                 <th>CREATURE</th>

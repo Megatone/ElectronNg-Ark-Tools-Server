@@ -1,3 +1,5 @@
+import * as cloner from 'lodash';
+
 export class Dino {
 
   public name: String;
@@ -51,4 +53,15 @@ export class Dino {
       this.limit > 0
     );
   }
+
+  public clear(): Dino {
+    const dino: Dino = this.clone();
+    delete dino._name;
+    return dino;
+  }
+
+  public clone(): Dino {
+    return cloner.cloneDeep(this);
+  }
+
 }

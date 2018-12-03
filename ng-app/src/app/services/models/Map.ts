@@ -1,5 +1,6 @@
 import { Entry } from './Entry';
 import { Dino } from './Dino';
+import * as cloner from 'lodash';
 
 export class Map {
 
@@ -58,4 +59,19 @@ export class Map {
 
     return this;
   }
+
+  public clear(): Map {
+    const map: Map = this.clone();
+    map.entries = map.entries.map((e) => {
+      return e.clear();
+    });
+
+    delete map._name;
+    return map;
+  }
+
+  public clone(): Map {
+    return cloner.cloneDeep(this);
+  }
+
 }

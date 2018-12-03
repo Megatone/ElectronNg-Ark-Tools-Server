@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomiceSpawnsComponent } from './customice-spawns.component';
+import { CustomiceStatsComponent } from './custom-stats.component';
 
-describe('CustomiceSpawnsComponent', () => {
-  let component: CustomiceSpawnsComponent;
-  let fixture: ComponentFixture<CustomiceSpawnsComponent>;
+describe('CustomiceStatsComponent', () => {
+  let component: CustomiceStatsComponent;
+  let fixture: ComponentFixture<CustomiceStatsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CustomiceSpawnsComponent ]
+      declarations: [ CustomiceStatsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CustomiceSpawnsComponent);
+    fixture = TestBed.createComponent(CustomiceStatsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

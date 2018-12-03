@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomiceLevelComponent } from './customice-level.component';
+import { CustomiceEngramsComponent } from './custom-engrams.component';
 
-describe('CustomiceLevelComponent', () => {
-  let component: CustomiceLevelComponent;
-  let fixture: ComponentFixture<CustomiceLevelComponent>;
+describe('CustomiceEngramsComponent', () => {
+  let component: CustomiceEngramsComponent;
+  let fixture: ComponentFixture<CustomiceEngramsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CustomiceLevelComponent ]
+      declarations: [ CustomiceEngramsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CustomiceLevelComponent);
+    fixture = TestBed.createComponent(CustomiceEngramsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

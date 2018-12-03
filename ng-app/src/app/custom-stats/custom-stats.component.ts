@@ -5,11 +5,11 @@ import { MatDialog } from '@angular/material';
 import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-output-config.component';
 
 @Component({
-  selector: 'app-customice-stats',
-  templateUrl: './customice-stats.component.html',
-  styleUrls: ['./customice-stats.component.scss']
+  selector: 'app-custom-stats',
+  templateUrl: './custom-stats.component.html',
+  styleUrls: ['./custom-stats.component.scss']
 })
-export class CustomiceStatsComponent implements OnInit {
+export class CustomStatsComponent implements OnInit {
 
   private human_stats = new Stats('Player');
   private dino_tamed_stats = new Stats('DinoTamed');

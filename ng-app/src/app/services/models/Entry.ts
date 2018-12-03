@@ -1,4 +1,5 @@
 import { Dino } from './Dino';
+import * as cloner from 'lodash';
 
 export class Entry {
   public name: string;
@@ -14,7 +15,7 @@ export class Entry {
 
   public checkDino(dino: Dino): void {
     if (!this.isDinoInEntry(dino)) {
-      this.addDino(dino);
+      this.addDino(dino.clone());
     } else {
       this.removeDino(dino);
     }
@@ -69,6 +70,20 @@ export class Entry {
       this.name !== '' &&
       this.name.toUpperCase().trim().indexOf('Spawn'.toUpperCase()) > -1
     );
+  }
+
+  public clear(): Entry {
+    const entry: Entry = this.clone();
+    entry.dinos = entry.dinos.map((d) => {
+      return d.clear();
+    });
+    delete entry._name;
+    delete entry._dinos;
+    return entry;
+  }
+
+  public clone(): Entry {
+    return cloner.cloneDeep(this);
   }
 
 }
