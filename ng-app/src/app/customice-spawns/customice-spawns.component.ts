@@ -140,9 +140,10 @@ export class CustomiceSpawnsComponent implements OnInit {
         height: '600px',
         width: '900px',
         data: {
-          config: this.map.toDataConfig(),
-          object: this.map
-         },
+          config: this.map_spawn.toDataConfig(),
+          object: this.map_spawn,
+          fileName: 'CustomSpawns'
+        },
         hasBackdrop: true
       });
     } else {
@@ -162,7 +163,7 @@ export class CustomiceSpawnsComponent implements OnInit {
   public onloadConfig($event): void {
     const file = $event.target.files[0];
     const reader = new FileReader();
-    reader.onload = ((theFile, map_spawn) => {
+    reader.onload = (() => {
       return (e) => {
         const b = e.target.result.split(',')[1];
         const map = new Map('').load(JSON.parse(atob(b)));
@@ -178,7 +179,7 @@ export class CustomiceSpawnsComponent implements OnInit {
         document.getElementById('file').setAttribute('value', '');
 
       };
-    })(file, this.map_spawn);
+    })();
     reader.readAsDataURL(file);
   }
 }

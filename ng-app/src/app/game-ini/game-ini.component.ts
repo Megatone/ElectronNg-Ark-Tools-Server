@@ -24,7 +24,8 @@ export class GameIniComponent implements OnInit {
       width: '900px',
       data: {
         config: this.config.toDataConfig(),
-        object: this.config
+        object: this.config,
+        fileName: 'GAME'
       },
       hasBackdrop: true
     });
@@ -50,7 +51,6 @@ export class GameIniComponent implements OnInit {
           alert('BAD FILE');
         }
         document.getElementById('file').setAttribute('value', '');
-
       };
     })();
     reader.readAsDataURL(file);

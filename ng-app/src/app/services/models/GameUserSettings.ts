@@ -144,17 +144,19 @@ export class GameUserSettings {
     let dataConfig = '';
     // tslint:disable-next-line:forin
     for (const key in this) {
-      if (key === 'MaxPlayers') {
-        dataConfig += '\n[/script/engine.gamesession]\n';
-      } else if (key === 'SessionName') {
-        dataConfig += '\n[SessionSettings]\n';
-      } else if (key === 'Duration') {
-        dataConfig += '\n[MessageOfTheDay]\n';
-      } else if (key === 'allowThirdPersonPlayer') {
-        dataConfig += '\n[ServerSettings]\n';
-      }
+      if (this.hasOwnProperty(key)) {
+        if (key === 'MaxPlayers') {
+          dataConfig += '\n[/script/engine.gamesession]\n';
+        } else if (key === 'SessionName') {
+          dataConfig += '\n[SessionSettings]\n';
+        } else if (key === 'Duration') {
+          dataConfig += '\n[MessageOfTheDay]\n';
+        } else if (key === 'allowThirdPersonPlayer') {
+          dataConfig += '\n[ServerSettings]\n';
+        }
 
-      dataConfig += key + '=' + this[key] + '\n';
+        dataConfig += key + '=' + this[key] + '\n';
+      }
     }
     return dataConfig;
   }

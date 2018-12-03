@@ -35,22 +35,16 @@ export class CustomiceStatsComponent implements OnInit {
       this.storage.setStats(this.human_stats);
       this.storage.setStats(this.dino_tamed_stats);
       this.storage.setStats(this.dino_wild_stats);
+      const stats = [this.human_stats, this.dino_tamed_stats, this.dino_wild_stats];
       this.dialog.open(ModalOutputConfigComponent, {
         height: '600px',
         width: '900px',
         data: {
-          config: [
-            this.human_stats,
-            this.dino_tamed_stats,
-            this.dino_wild_stats
-          ].map((stat) => {
+          config: stats.map((stat) => {
             return stat.toDataConfig();
           }).join(''),
-          object: [
-            this.human_stats,
-            this.dino_tamed_stats,
-            this.dino_wild_stats
-          ]
+          object: stats,
+          fileName: 'CustomStats'
         },
         hasBackdrop: true
       });

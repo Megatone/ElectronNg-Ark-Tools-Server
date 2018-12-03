@@ -363,7 +363,7 @@
           <td>If specified, players must provide this password (via the in-game console) to gain
             access to administrator commands on the server.
           </td>
-          <td><input type="text" class="form-control" [(ngModel)]="config.ServerAdminPassword" ></td>
+          <td><input type="text" class="form-control" [(ngModel)]="config.ServerAdminPassword"></td>
         </tr>
 
         <tr>
@@ -505,7 +505,7 @@
           <td>SpectatorPassword</td>
           <td>To use non-admin spectator, the server must specify a spectator password. Then any
             client can use these console commands: requestspectator password and stopspectating.
-              See patch 191.0 for more information and hotkeys.
+            See patch 191.0 for more information and hotkeys.
           </td>
           <td><input type="text" class="form-control" [(ngModel)]="config.SpectatorPassword"></td>
         </tr>
@@ -705,7 +705,8 @@
           <td>Wild dinos or dinos without a rider can take damage from defense structures like
             spikewalls if this setting is activated</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPassiveDefensesDamageRiderlessDinos"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPassiveDefensesDamageRiderlessDinos"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -739,7 +740,8 @@
           <td>Determines if turrets are allowed on moving platforms or not. Yes will prevent it. No
             will allow it</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.OverrideStructurePlatformPrevention"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.OverrideStructurePlatformPrevention"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -782,7 +784,8 @@
           <td>AllowAnyoneBabyImprintCuddle</td>
           <td>Allows everybody to kuddle with the dino baby</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowAnyoneBabyImprintCuddle"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowAnyoneBabyImprintCuddle"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -790,7 +793,8 @@
           <td>EnableExtraStructurePreventionVolumes</td>
           <td>Prevents the building of structures on places which are rich of resources</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.EnableExtraStructurePreventionVolumes"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.EnableExtraStructurePreventionVolumes"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -808,7 +812,8 @@
             unconnected to any non-pipe (directly or indirectly) and no allied player is nearby.
           </td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.DestroyUnconnectedWaterPipes"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.DestroyUnconnectedWaterPipes"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -843,7 +848,8 @@
           <td>Use "true" if you want to allow being able to build structures nearby supply drop.
             "false" will disable it.</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PvEAllowStructuresAtSupplyDrops"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.PvEAllowStructuresAtSupplyDrops"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -909,7 +915,8 @@
             "optimized" server with high HarvestAmountMultiplier (but less rare items), you can
             launch with "yes" in this setting here.</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.UseOptimizedHarvestingHealth"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.UseOptimizedHarvestingHealth"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -918,7 +925,8 @@
           <td>Servers can now allow from-the-air Supply Crates to appear on top of Structures, rather
             than being prevented by Structures. Enabled on Official Servers.</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowCrateSpawnsOnTopOfStructures"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowCrateSpawnsOnTopOfStructures"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -943,7 +951,8 @@
           <td>AllowFlyingStaminaRecovery</td>
           <td>Flyer Nerf (to allow server to recover Stamina when standing on a Flyer, run with "yes"</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowFlyingStaminaRecovery"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.AllowFlyingStaminaRecovery"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -1001,7 +1010,8 @@
           <td>CrossARKAllowForeignDinoDownloads</td>
           <td>This allows you to download Non-Aberration Dinos on Aberration</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.CrossARKAllowForeignDinoDownloads"></mat-slide-toggle> YES
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.CrossARKAllowForeignDinoDownloads"></mat-slide-toggle>
+            YES
           </td>
         </tr>
 
@@ -1015,7 +1025,8 @@
         </tr>
         <tr>
           <td colspan="3">
-            <button type="button" class="btn btn-primary" (click)="generate()">Generate</button>
+            <button type="button" class="btn btn-50" (click)="generate()">Import Config JSON</button>
+            <button type="button" class="btn btn-50" (click)="generate()">Generate</button>
           </td>
         </tr>
       </tbody>

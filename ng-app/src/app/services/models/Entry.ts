@@ -10,7 +10,6 @@ export class Entry {
   ) {
     this.name = _name;
     this.dinos = <Array<Dino>>_dinos;
-
   }
 
   public checkDino(dino: Dino): void {

@@ -66,7 +66,7 @@ export class GameIni {
   }
 
   public toDataConfig(): String {
-    let dataConfig = '';
+    let dataConfig = '[/script/shootergame.shootergamemode]\n';
     for (const key in this) {
       if (this.hasOwnProperty(key)) {
         dataConfig += key + '=' + this[key].toString() + '\n';

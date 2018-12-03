@@ -23,7 +23,8 @@ export class GameUserSettingsComponent {
         width: '900px',
         data: {
           config: this.config.toDataConfig(),
-          object: this.config
+          object: this.config,
+          fileName : 'GameUserSettings'
         },
         hasBackdrop: true
       });
