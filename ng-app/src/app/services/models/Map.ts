@@ -6,26 +6,36 @@ export class Map {
 
   public name: String;
   public entries: Array<Entry>;
+  private activeEntry: Entry;
 
   constructor(private _name: String) {
     this.name = _name;
     this.entries = <Array<Entry>>[];
   }
 
-  public getEntry(entryName): Entry {
-    if (entryName !== '') {
-      return <Entry>this.entries.filter((_entry) => {
-        return (_entry.name === entryName);
-      })[0];
-    } else {
-      return new Entry(entryName, []);
+  public getActiveEntry(): Entry {
+    return this.activeEntry;
+  }
+
+  public setAcctiveEntry(entry: Entry, state: Boolean): void {
+    const _entry = this.entries.filter((e) => {
+      return e.name === entry.name;
+    })[0];
+    if (_entry) {
+      _entry.active = state;
+      if (state === true) {
+        this.activeEntry = _entry;
+      } else if (this.activeEntry && this.activeEntry.name === entry.name) {
+        this.activeEntry = undefined;
+      }
     }
   }
 
-  public resetDinos() {
+  public resetDinos(): Map {
     this.entries.forEach(entry => {
       entry.resetDinos();
     });
+    return this;
   }
 
   public validateDataConfig(): Boolean {

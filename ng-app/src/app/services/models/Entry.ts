@@ -2,8 +2,10 @@ import { Dino } from './Dino';
 import * as cloner from 'lodash';
 
 export class Entry {
+
   public name: string;
   public dinos: Array<Dino>;
+  public active: Boolean;
 
   constructor(
     private _name: string,
@@ -11,6 +13,7 @@ export class Entry {
   ) {
     this.name = _name;
     this.dinos = <Array<Dino>>_dinos;
+    this.active = false;
   }
 
   public checkDino(dino: Dino): void {

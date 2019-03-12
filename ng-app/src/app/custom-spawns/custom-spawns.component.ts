@@ -20,6 +20,8 @@ import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-
 })
 export class CustomSpawnsComponent implements OnInit {
 
+  private allLoaded: Boolean = false;
+  private mods_loaded: Boolean = false;
   private mods_path: String = '';
   private mods_BASE: Array<Mod> = [];
   private mods: Array<Mod> = [];
@@ -27,9 +29,7 @@ export class CustomSpawnsComponent implements OnInit {
   private map: Map;
   private map_spawn: Map;
   private filter: String = '';
-  private mods_loaded: Boolean = false;
   private mods_ids: String = '';
-  private active_entry_name: String;
 
   constructor(
     private dataService: DataService,
@@ -40,17 +40,19 @@ export class CustomSpawnsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.maps = this.dataService.getMaps();
-    this.map = this.maps[0];
-    this.active_entry_name = this.map.entries[0].name;
-    this.mods_BASE = this.dataService.getDefaultMods();
-    this.mods = cloner.cloneDeep(this.mods_BASE);
-    this.mods_loaded = true;
-    this.map_spawn = new Map(this.map.name);
-    this.map_spawn.entries = this.storage.getSpawnEntries(this.map);
-    this.mods_path = this.storage.getModsPath();
-    this.mods_ids = this.storage.getModsIds();
-    this.resetChecks();
+    this.spinner.show();
+    this.dataService.getMapsJSON().then((maps) => {
+      this.maps = maps;
+      this.map = this.maps[0];
+      this.map_spawn = this.map.clone().resetDinos();
+      this.mods_BASE = this.dataService.getDefaultMods();
+      this.mods = this.cloneMods();
+      this.mods_loaded = true;
+      this.mods_path = this.storage.getModsPath();
+      this.mods_ids = this.storage.getModsIds();
+      this.allLoaded = true;
+      this.spinner.hide();
+    });
   }
 
   public selectModsPath(): void {
@@ -61,20 +63,16 @@ export class CustomSpawnsComponent implements OnInit {
   }
 
   public setEntryState(entry: Entry, state: Boolean): void {
-    if (state && this.active_entry_name !== entry.name) {
-
-      this.active_entry_name = entry.name;
-      this.resetChecks();
-
-    } else if (!state && this.active_entry_name === entry.name) {
-      this.active_entry_name = '';
-    }
+    this.map.setAcctiveEntry(entry, state);
+    this.map_spawn.setAcctiveEntry(entry, state);
+    this.resetChecks();
   }
 
   public resetChecks(): void {
+    const activeSpawnEntry = this.map_spawn.getActiveEntry();
     this.mods.forEach((mod) => {
       mod.dinos.forEach((dino) => {
-        dino.checked = this.getActiveSpawnEntry().isDinoInEntry(dino);
+        dino.checked = activeSpawnEntry ? activeSpawnEntry.isDinoInEntry(dino) : false;
       });
     });
   }
@@ -97,9 +95,7 @@ export class CustomSpawnsComponent implements OnInit {
   }
 
   public checkDino(dino: Dino): void {
-    if (this.active_entry_name !== '') {
-      this.getActiveSpawnEntry().checkDino(dino);
-    }
+    this.map_spawn.getActiveEntry().checkDino(dino);
   }
 
   public removeDino(dino: Dino) {
@@ -107,13 +103,6 @@ export class CustomSpawnsComponent implements OnInit {
     this.resetChecks();
   }
 
-  public getActiveSpawnEntry(): Entry {
-    return this.map_spawn.getEntry(this.active_entry_name);
-  }
-
-  public getActiveMapEntry(): Entry {
-    return this.map.getEntry(this.active_entry_name);
-  }
 
   public filterChange(event): void {
     this.spinner.show();
@@ -151,7 +140,6 @@ export class CustomSpawnsComponent implements OnInit {
     }
   }
 
-
   public cloneMods(): Array<Mod> {
     return cloner.cloneDeep(this.mods_BASE);
   }
@@ -182,5 +170,17 @@ export class CustomSpawnsComponent implements OnInit {
       };
     })();
     reader.readAsDataURL(file);
+  }
+
+  public mapChanged(map) {
+    this.allLoaded = false;
+    this.spinner.show();
+    setTimeout(() => {
+      this.map_spawn = this.map.clone().resetDinos();
+      this.allLoaded = true;
+      this.resetChecks();
+      this.spinner.hide();
+    }, 1000);
+
   }
 }

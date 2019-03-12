@@ -1,0 +1,3043 @@
+[
+    {
+        "name": "The Island",
+        "entries": [
+            {
+                "name": "DinoSpawnEntriesArcha",
+                "dinos": [
+                    "Archaeopteryx"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBeach",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Oviraptor",
+                    "Carbonemys",
+                    "Compy",
+                    "Lystrosaurus",
+                    "Moschops",
+                    "Pegomastax",
+                    "Ichthyornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBee",
+                "dinos": [
+                    "Giant Queen Bee"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave1",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave2-LowSpiderScorp",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Onyc",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave5",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Onyc",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave7-Fliers",
+                "dinos": [
+                    "Onyc",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveIceWater",
+                "dinos": [
+                    "Sabertooth Salmon",
+                    "Anglerfish"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveLava",
+                "dinos": [
+                    "Dilophosaur",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Onyc"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveMegalo",
+                "dinos": [
+                    "Megalosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Easy_11",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Easy_12",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Easy_13",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Easy_14",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Easy_15",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Easy_16",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_11",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_12",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_13",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_14",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_15",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_16",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Medium_11",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Medium_12",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Medium_13",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Medium_14",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Medium_15",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Medium_16",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveWater",
+                "dinos": [
+                    "Piranha",
+                    "Sarco"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesDamiensAtoll",
+                "dinos": [
+                    "Parasaur",
+                    "Triceratops",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Phiomia"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGigant",
+                "dinos": [
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGigantTekCave",
+                "dinos": [
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGrassland",
+                "dinos": [
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Raptor",
+                    "Rex",
+                    "Phiomia",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Meganeura",
+                    "Doedicurus",
+                    "Pachy",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Terror Bird",
+                    "Allosaurus",
+                    "Pachyrhinosaurus",
+                    "Ovis",
+                    "Microraptor",
+                    "Equus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesIceCave",
+                "dinos": [
+                    "Direwolf",
+                    "Purlovia",
+                    "Polar Bear",
+                    "Yeti"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesJungle",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Dilophosaur",
+                    "Raptor",
+                    "Phiomia",
+                    "Carbonemys",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Compy",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Diplodocus",
+                    "Mesopithecus",
+                    "Pachy",
+                    "Oviraptor",
+                    "Lystrosaurus",
+                    "Tapejara",
+                    "Chalicotherium",
+                    "Moschops",
+                    "Therizinosaur",
+                    "Troodon",
+                    "Iguanodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMegalania",
+                "dinos": [
+                    "Megalania"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMonsterIsland",
+                "dinos": [
+                    "Raptor",
+                    "Sabertooth",
+                    "Rex",
+                    "Pulmonoscorpius",
+                    "Argentavis",
+                    "Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMountain",
+                "dinos": [
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Dimorphodon",
+                    "Raptor",
+                    "Sabertooth",
+                    "Rex",
+                    "Pulmonoscorpius",
+                    "Argentavis",
+                    "Carnotaurus",
+                    "Doedicurus",
+                    "Pachy",
+                    "Procoptodon",
+                    "Allosaurus",
+                    "Kentrosaurus",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesPelican",
+                "dinos": [
+                    "Pelagornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesPenguins",
+                "dinos": [
+                    "Kairuku"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesQuetz",
+                "dinos": [
+                    "Quetzal"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesRedwoods",
+                "dinos": [
+                    "Pteranodon",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Doedicurus",
+                    "Paraceratherium",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Terror Bird",
+                    "Gigantopithecus",
+                    "Dire Bear",
+                    "Dimorphodon",
+                    "Compy",
+                    "Megaloceros",
+                    "Achatina",
+                    "Troodon",
+                    "Pegomastax",
+                    "Purlovia",
+                    "Microraptor",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSnow",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Yutyrannus, Carnotaurus",
+                    "Argentavis",
+                    "Woolly Rhino",
+                    "Chalicotherium",
+                    "Purlovia",
+                    "Ovis",
+                    "Daeodon",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSwamp",
+                "dinos": [
+                    "Dilophosaur",
+                    "Phiomia",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Paraceratherium",
+                    "Titanoboa",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSwampCave",
+                "dinos": [
+                    "Meganeura",
+                    "Araneo",
+                    "Arthropluera",
+                    "Achatina",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Titanoboa"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSwampCaveWater",
+                "dinos": [
+                    "Leech, Diseased Leech"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesThy",
+                "dinos": [
+                    "Thylacoleo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesTinyCave",
+                "dinos": [
+                    "Onyc",
+                    "Araneo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesTitano",
+                "dinos": [
+                    "Titanosaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesUnderwaterGround",
+                "dinos": [
+                    "Pulmonoscorpius",
+                    "Onyc",
+                    "Achatina",
+                    "Dung Beetle",
+                    "Araneo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesUnicorn",
+                "dinos": [
+                    "Unicorn"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Beavers",
+                "dinos": [
+                    "Castoroides"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater",
+                "dinos": [
+                    "Plesiosaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWaterAngler",
+                "dinos": [
+                    "Anglerfish",
+                    "Electrophorus",
+                    "Dunkleosteus",
+                    "Eurypterid",
+                    "Ammonite",
+                    "Cnidaria"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Lio",
+                "dinos": [
+                    "Liopleurodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Mosa",
+                "dinos": [
+                    "Mosasaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Mosa_Caves",
+                "dinos": [
+                    "Mosasaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Plesia",
+                "dinos": [
+                    "Plesiosaur",
+                    "Tusoteuthis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Tuso",
+                "dinos": [
+                    "Tusoteuthis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DeepWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Megalodon",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Cnidaria"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_InlandWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Piranha",
+                    "Spino",
+                    "Baryonyx",
+                    "Hesperornis",
+                    "Otter"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ocean",
+                "dinos": [
+                    "Megalodon",
+                    "Coelacanth",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Basilosaurus, Manta",
+                    "Leedsichthys"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_OceanCaveHard",
+                "dinos": [
+                    "Megalodon",
+                    "Dunkleosteus",
+                    "Anglerfish",
+                    "Manta",
+                    "Trilobite",
+                    "Piranha",
+                    "Eurypterid",
+                    "Cnidaria",
+                    "Electrophorus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_OceanCaveMedium",
+                "dinos": [
+                    "Megalodon",
+                    "Coelacanth",
+                    "Manta",
+                    "Trilobite",
+                    "Cnidaria",
+                    "Sabertooth Salmon",
+                    "Electrophorus",
+                    "Ammonite",
+                    "Mosasaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_RedwoodWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Otter"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_ShallowWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sarco",
+                    "Piranha",
+                    "Hesperornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_SwampWater",
+                "dinos": [
+                    "Leech, Diseased Leech",
+                    "Coelacanth",
+                    "Piranha",
+                    "Beelzebufo",
+                    "Sarco",
+                    "Kaprosuchus",
+                    "Dimetrodon",
+                    "Diplocaulus",
+                    "Baryonyx"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Center",
+        "entries": [
+            {
+                "name": "CustomAnglerSpawner",
+                "dinos": [
+                    "Anglerfish",
+                    "Eurypterid",
+                    "Dunkleosteus",
+                    "Cnidaria",
+                    "Ammonite",
+                    "Electrophorus"
+                ]
+            },
+            {
+                "name": "CustomPenguinSpawner",
+                "dinos": [
+                    "Kairuku"
+                ]
+            },
+            {
+                "name": "GrasslandsUnderArea_WaterSpawn",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon"
+                ]
+            },
+            {
+                "name": "IceCaveWater_Spawner",
+                "dinos": [
+                    "Kairuku",
+                    "Piranha"
+                ]
+            },
+            {
+                "name": "IceCave_Spawner",
+                "dinos": [
+                    "Araneo",
+                    "Sabertooth",
+                    "Direwolf",
+                    "Yeti"
+                ]
+            },
+            {
+                "name": "LavaBeach_Spawn",
+                "dinos": [
+                    "Raptor",
+                    "Carnotaurus",
+                    "Pulmonoscorpius",
+                    "Rex"
+                ]
+            },
+            {
+                "name": "LavaWater_Spawn",
+                "dinos": [
+                    "Piranha",
+                    "Spino"
+                ]
+            },
+            {
+                "name": "Lava_Spawn",
+                "dinos": [
+                    "Raptor",
+                    "Carnotaurus",
+                    "Pulmonoscorpius",
+                    "Rex",
+                    "Argentavis",
+                    "Direwolf",
+                    "Sabertooth"
+                ]
+            },
+            {
+                "name": "Lava_Upper_Spawn",
+                "dinos": [
+                    "Carnotaurus",
+                    "Rex",
+                    "Argentavis",
+                    "Direwolf",
+                    "Sabertooth"
+                ]
+            },
+            {
+                "name": "MiniCaveBearSpawner",
+                "dinos": [
+                    "Dire Bear"
+                ]
+            },
+            {
+                "name": "SnowGrasslandsUnderArea_Spawn",
+                "dinos": [
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Argentavis",
+                    "Gigantopithecus",
+                    "Woolly Rhino",
+                    "Dire Bear",
+                    "Procoptodon"
+                ]
+            },
+            {
+                "name": "SnowGrasslands_Spawn",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Yutyrannus, Carnotaurus",
+                    "Argentavis",
+                    "Gigantopithecus",
+                    "Woolly Rhino"
+                ]
+            },
+            {
+                "name": "SnowyMountain_Spawn",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Rex, Carnotaurus",
+                    "Argentavis",
+                    "Kairuku"
+                ]
+            },
+            {
+                "name": "UnderwaterCaveSpawn",
+                "dinos": [
+                    "Anglerfish",
+                    "Piranha",
+                    "Eurypterid"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesArcha",
+                "dinos": [
+                    "Archaeopteryx"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBeach",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Oviraptor",
+                    "Carbonemys",
+                    "Compy",
+                    "Lystrosaurus",
+                    "Moschops",
+                    "Pegomastax",
+                    "Ichthyornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBee",
+                "dinos": [
+                    "Giant Queen Bee"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave1",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave5",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Onyc",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave5_Tough",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Onyc",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveMegalo",
+                "dinos": [
+                    "Megalosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGigant",
+                "dinos": [
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGrassland",
+                "dinos": [
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Raptor",
+                    "Rex",
+                    "Phiomia",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Meganeura",
+                    "Doedicurus",
+                    "Pachy",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Terror Bird",
+                    "Allosaurus",
+                    "Pachyrhinosaurus",
+                    "Ovis",
+                    "Microraptor",
+                    "Equus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesJungle",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Dilophosaur",
+                    "Raptor",
+                    "Phiomia",
+                    "Carbonemys",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Compy",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Diplodocus",
+                    "Mesopithecus",
+                    "Pachy",
+                    "Oviraptor",
+                    "Lystrosaurus",
+                    "Tapejara",
+                    "Chalicotherium",
+                    "Moschops",
+                    "Therizinosaur",
+                    "Troodon",
+                    "Iguanodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMegalania",
+                "dinos": [
+                    "Megalania"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMonsterIsland",
+                "dinos": [
+                    "Raptor",
+                    "Sabertooth",
+                    "Rex",
+                    "Pulmonoscorpius",
+                    "Argentavis",
+                    "Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMountain",
+                "dinos": [
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Dimorphodon",
+                    "Raptor",
+                    "Sabertooth",
+                    "Rex",
+                    "Pulmonoscorpius",
+                    "Argentavis",
+                    "Carnotaurus",
+                    "Doedicurus",
+                    "Pachy",
+                    "Procoptodon",
+                    "Allosaurus",
+                    "Kentrosaurus",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesPelican",
+                "dinos": [
+                    "Pelagornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesQuetz",
+                "dinos": [
+                    "Quetzal"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesRedwoods",
+                "dinos": [
+                    "Pteranodon",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Doedicurus",
+                    "Paraceratherium",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Terror Bird",
+                    "Gigantopithecus",
+                    "Dire Bear",
+                    "Dimorphodon",
+                    "Compy",
+                    "Megaloceros",
+                    "Achatina",
+                    "Troodon",
+                    "Pegomastax",
+                    "Purlovia",
+                    "Microraptor",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSnow",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Yutyrannus, Carnotaurus",
+                    "Argentavis",
+                    "Woolly Rhino",
+                    "Chalicotherium",
+                    "Purlovia",
+                    "Ovis",
+                    "Daeodon",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSwamp",
+                "dinos": [
+                    "Dilophosaur",
+                    "Phiomia",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Paraceratherium",
+                    "Titanoboa",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesThy",
+                "dinos": [
+                    "Thylacoleo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesTitano",
+                "dinos": [
+                    "Titanosaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Beavers",
+                "dinos": [
+                    "Castoroides"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater",
+                "dinos": [
+                    "Plesiosaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Lio",
+                "dinos": [
+                    "Liopleurodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Mosa",
+                "dinos": [
+                    "Mosasaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Tuso",
+                "dinos": [
+                    "Tusoteuthis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DeepWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Megalodon",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Cnidaria"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_GenericWater",
+                "dinos": [
+                    "Coelacanth"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_InlandWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Piranha",
+                    "Spino",
+                    "Baryonyx",
+                    "Hesperornis",
+                    "Otter"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ocean",
+                "dinos": [
+                    "Megalodon",
+                    "Coelacanth",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Basilosaurus, Manta",
+                    "Leedsichthys"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_OceanUnderworld",
+                "dinos": [
+                    "Coelacanth",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_ShallowWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sarco",
+                    "Piranha",
+                    "Hesperornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_SwampWater",
+                "dinos": [
+                    "Leech, Diseased Leech",
+                    "Coelacanth",
+                    "Piranha",
+                    "Beelzebufo",
+                    "Sarco",
+                    "Kaprosuchus",
+                    "Dimetrodon",
+                    "Diplocaulus",
+                    "Baryonyx"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Scorched Earth",
+        "entries": [
+            {
+                "name": "DinoSpawnEntriesBee",
+                "dinos": [
+                    "Giant Queen Bee"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveMegalo",
+                "dinos": [
+                    "Megalosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMegalania",
+                "dinos": [
+                    "Megalania"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesPhoenix",
+                "dinos": [
+                    "Phoenix"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesBadlands",
+                "dinos": [
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Pulmonoscorpius",
+                    "Terror Bird",
+                    "Thorny Dragon",
+                    "Vulture",
+                    "Lymantria",
+                    "Morellatops",
+                    "Sabertooth",
+                    "Doedicurus",
+                    "Direwolf",
+                    "Carnotaurus",
+                    "Arthropluera",
+                    "Ankylosaurus",
+                    "Titanoboa",
+                    "Oil Jug Bug, Water Jug Bug",
+                    "Rock Elemental",
+                    "Troodon",
+                    "Thylacoleo",
+                    "Daeodon",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesCanyonCave",
+                "dinos": [
+                    "Pulmonoscorpius",
+                    "Arthropluera",
+                    "Titanoboa",
+                    "Mantis",
+                    "Onyc",
+                    "Araneo",
+                    "Rubble Golem",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesCanyons",
+                "dinos": [
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Pulmonoscorpius",
+                    "Terror Bird",
+                    "Thorny Dragon",
+                    "Sabertooth",
+                    "Doedicurus",
+                    "Direwolf",
+                    "Titanoboa",
+                    "Oil Jug Bug, Water Jug Bug",
+                    "Morellatops",
+                    "Purlovia",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesDunes",
+                "dinos": [
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Pulmonoscorpius",
+                    "Vulture",
+                    "Arthropluera",
+                    "Titanoboa",
+                    "Mantis",
+                    "Dung Beetle",
+                    "Oil Jug Bug, Water Jug Bug"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesEZMode",
+                "dinos": [
+                    "Oil Jug Bug",
+                    "Water Jug Bug",
+                    "Doedicurus",
+                    "Morellatops",
+                    "Parasaur",
+                    "Lystrosaurus",
+                    "Ankylosaurus",
+                    "Procoptodon",
+                    "Jerboa",
+                    "Raptor"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesGreenDesert",
+                "dinos": [
+                    "Oil Jug Bug",
+                    "Water Jug Bug",
+                    "Terror Bird",
+                    "Lymantria",
+                    "Doedicurus",
+                    "Paraceratherium",
+                    "Gallimimus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Morellatops",
+                    "Sabertooth",
+                    "Lystrosaurus",
+                    "Ankylosaurus",
+                    "Direwolf",
+                    "Procoptodon",
+                    "Thorny Dragon",
+                    "Rock Elemental",
+                    "Jerboa",
+                    "Archaeopteryx",
+                    "Pegomastax",
+                    "Microraptor",
+                    "Equus",
+                    "Daeodon",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesMountain",
+                "dinos": [
+                    "Pulmonoscorpius",
+                    "Thorny Dragon",
+                    "Sabertooth",
+                    "Carnotaurus",
+                    "Argentavis",
+                    "Tapejara",
+                    "Ankylosaurus",
+                    "Lymantria",
+                    "Vulture",
+                    "Rock Elemental",
+                    "Equus",
+                    "Kentrosaurus",
+                    "Yutyrannus, Carnotaurus",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesMountainCave",
+                "dinos": [
+                    "Pulmonoscorpius",
+                    "Mantis",
+                    "Onyc",
+                    "Araneo",
+                    "Sabertooth",
+                    "Direwolf",
+                    "Rubble Golem",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesOasis",
+                "dinos": [
+                    "Raptor",
+                    "Lymantria",
+                    "Procoptodon",
+                    "Lystrosaurus",
+                    "Morellatops",
+                    "Paraceratherium",
+                    "Gallimimus",
+                    "Jerboa",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Moschops",
+                    "Pegomastax",
+                    "Ovis",
+                    "Iguanodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesRuinsCave",
+                "dinos": [
+                    "Arthropluera",
+                    "Mantis",
+                    "Onyc",
+                    "Titanoboa",
+                    "Rubble Golem",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesRuinsCaveNoGolem",
+                "dinos": [
+                    "Arthropluera",
+                    "Mantis",
+                    "Onyc",
+                    "Titanoboa",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesSandworm",
+                "dinos": [
+                    "Deathworm"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Kaprosuchus"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesWyvern",
+                "dinos": [
+                    "Fire Wyvern",
+                    "Lightning Wyvern",
+                    "Poison Wyvern"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesWyvernTrench",
+                "dinos": [
+                    "Titanoboa",
+                    "Mantis",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Dung Beetle",
+                    "Arthropluera"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntries_RexSolo",
+                "dinos": [
+                    "Rex"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aberration",
+        "entries": [
+            {
+                "name": "AB_DinoSpawnEntriesRockDrake",
+                "dinos": [
+                    "Rock Drake"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_Basilisks",
+                "dinos": [
+                    "Basilisk"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_BioLumCave",
+                "dinos": [
+                    "Seeker",
+                    "Aberrant Titanoboa",
+                    "Aberrant Pulmonoscorpius",
+                    "Aberrant Achatina",
+                    "Glowbug",
+                    "Aberrant Arthropluera",
+                    "Aberrant Dung Beetle"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_DrakeTrench",
+                "dinos": [
+                    "Glowbug",
+                    "Aberrant Pulmonoscorpius",
+                    "Seeker",
+                    "Aberrant Araneo",
+                    "Karkinos",
+                    "Aberrant Titanoboa",
+                    "Aberrant Dimorphodon",
+                    "Aberrant Meganeura",
+                    "Glowtail"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_ElementCave",
+                "dinos": [
+                    "Glowbug",
+                    "Aberrant Pulmonoscorpius",
+                    "Seeker",
+                    "Aberrant Carnotaurus",
+                    "Aberrant Arthropluera",
+                    "Aberrant Megalosaurus",
+                    "Featherlight",
+                    "Aberrant Dung Beetle"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_ElementWater",
+                "dinos": [
+                    "Aberrant Cnidaria",
+                    "Lamprey"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_ElementalChamber",
+                "dinos": [
+                    "Glowbug",
+                    "Aberrant Pulmonoscorpius",
+                    "Seeker",
+                    "Aberrant Carnotaurus",
+                    "Aberrant Arthropluera",
+                    "Aberrant Purlovia",
+                    "Rock Drake",
+                    "Aberrant Megalosaurus",
+                    "Aberrant Spino",
+                    "Featherlight",
+                    "Aberrant Dung Beetle"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_FertileCave",
+                "dinos": [
+                    "Aberrant Carnotaurus",
+                    "Aberrant Meganeura",
+                    "Aberrant Arthropluera",
+                    "Aberrant Raptor",
+                    "Ravager",
+                    "Glowtail",
+                    "Aberrant Pulmonoscorpius",
+                    "Seeker"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_OctoBat",
+                "dinos": [
+                    "Seeker"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_RockDrake",
+                "dinos": [
+                    "Rock Drake"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchBioLand",
+                "dinos": [
+                    "Aberrant Titanoboa",
+                    "Aberrant Lystrosaurus",
+                    "Aberrant Iguanodon",
+                    "Aberrant Achatina",
+                    "Aberrant Arthropluera",
+                    "Aberrant Megalosaurus",
+                    "Glowbug",
+                    "Shinehorn",
+                    "Aberrant Ankylosaurus",
+                    "Roll Rat",
+                    "Aberrant Dung Beetle",
+                    "Ravager",
+                    "Rock Drake"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchBioWater",
+                "dinos": [
+                    "Aberrant Beelzebufo",
+                    "Aberrant Cnidaria",
+                    "Aberrant Electrophorus",
+                    "Aberrant Baryonyx",
+                    "Aberrant Anglerfish",
+                    "Aberrant Diplocaulus",
+                    "Aberrant Trilobite",
+                    "Aberrant Dimetrodon",
+                    "Karkinos",
+                    "Lamprey",
+                    "Aberrant Sarco",
+                    "Aberrant Salmon"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchFertileLand",
+                "dinos": [
+                    "Aberrant Paraceratherium",
+                    "Aberrant Stegosaurus",
+                    "Aberrant Triceratops",
+                    "Aberrant Raptor",
+                    "Aberrant Carnotaurus",
+                    "Aberrant Moschops",
+                    "Aberrant Parasaur",
+                    "Aberrant Diplodocus",
+                    "Aberrant Dodo",
+                    "Aberrant Meganeura",
+                    "Aberrant Iguanodon",
+                    "Aberrant Equus",
+                    "Aberrant Lystrosaurus",
+                    "Aberrant Pulmonoscorpius",
+                    "Bulbdog",
+                    "Glowbug",
+                    "Aberrant Carbonemys",
+                    "Ravager",
+                    "Roll Rat",
+                    "Aberrant Doedicurus",
+                    "Aberrant Ovis"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchFertileLandEasy",
+                "dinos": [
+                    "Aberrant Paraceratherium",
+                    "Aberrant Stegosaurus",
+                    "Aberrant Triceratops",
+                    "Aberrant Raptor",
+                    "Aberrant Moschops",
+                    "Aberrant Parasaur",
+                    "Aberrant Diplodocus",
+                    "Aberrant Dodo",
+                    "Aberrant Iguanodon",
+                    "Aberrant Equus",
+                    "Aberrant Lystrosaurus",
+                    "Bulbdog",
+                    "Glowbug",
+                    "Aberrant Carbonemys",
+                    "Aberrant Doedicurus",
+                    "Aberrant Ovis"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchFertileWater",
+                "dinos": [
+                    "Abberant Coelacanth",
+                    "Aberrant Piranha",
+                    "Aberrant Sarco",
+                    "Aberrant Spino",
+                    "Aberrant Otter",
+                    "Karkinos",
+                    "Aberrant Manta"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchFertileWaterCave3",
+                "dinos": [
+                    "Abberant Coelacanth",
+                    "Aberrant Piranha",
+                    "Aberrant Salmon",
+                    "Aberrant Sarco",
+                    "Aberrant Electrophorus",
+                    "Aberrant Otter",
+                    "Karkinos",
+                    "Aberrant Cnidaria"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_TwitchFertileWaterEasy",
+                "dinos": [
+                    "Abberant Coelacanth",
+                    "Aberrant Otter",
+                    "Aberrant Trilobite"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_XenoQueens",
+                "dinos": [
+                    "Reaper Queen"
+                ]
+            },
+            {
+                "name": "AB_DinoSpawnEntries_Xenos",
+                "dinos": [
+                    "Surface Reaper King"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntries_ChupaCabraSurface",
+                "dinos": [
+                    "Nameless"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBee",
+                "dinos": [
+                    "Giant Queen Bee"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesChupa",
+                "dinos": [
+                    "Nameless"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ragnarok",
+        "entries": [
+            {
+                "name": "Ragnarok_DinoSpawnEntriesIceWyvern",
+                "dinos": [
+                    "Ice Wyvern"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Lobster",
+                "dinos": [
+                    "Eurypterid"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Bear",
+                "dinos": [
+                    "Dire Bear"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Castle",
+                "dinos": [
+                    "Araneo",
+                    "Onyc"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Center",
+                "dinos": [
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Pteranodon",
+                    "Raptor",
+                    "Phiomia",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Meganeura",
+                    "Doedicurus",
+                    "Pachy",
+                    "Diplodocus",
+                    "Terror Bird",
+                    "Microraptor"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_CenterWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Piranha",
+                    "Spino",
+                    "Baryonyx"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_DeepWater",
+                "dinos": [
+                    "Megalodon",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Cnidaria"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Golem",
+                "dinos": [
+                    "Rock Elemental"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Griffin",
+                "dinos": [
+                    "Griffin"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Iceworm",
+                "dinos": [
+                    "Iceworm Male"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Jerboa",
+                "dinos": [
+                    "Jerboa"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Jungle",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Dilophosaur",
+                    "Raptor",
+                    "Phiomia",
+                    "Carbonemys",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Compy",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Diplodocus",
+                    "Mesopithecus",
+                    "Pachy",
+                    "Oviraptor",
+                    "Lystrosaurus",
+                    "Tapejara",
+                    "Chalicotherium",
+                    "Moschops",
+                    "Therizinosaur",
+                    "Troodon",
+                    "Iguanodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_MonkeyIsland",
+                "dinos": [
+                    "Jerboa",
+                    "Dimorphodon",
+                    "Dimetrodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Mudslide",
+                "dinos": [
+                    "Vulture"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Ocean",
+                "dinos": [
+                    "Megalodon",
+                    "Coelacanth",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Basilosaurus, Manta"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_PolarBear",
+                "dinos": [
+                    "Dire Polar Bear"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_Scotland",
+                "dinos": [
+                    "Triceratops",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Allosaurus",
+                    "Ovis",
+                    "Equus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_SnowForest",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Argentavis",
+                    "Chalicotherium",
+                    "Purlovia",
+                    "Yutyrannus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Ragnarok_SnowPlains",
+                "dinos": [
+                    "Direwolf",
+                    "Mammoth",
+                    "Woolly Rhino"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesArcha",
+                "dinos": [
+                    "Archaeopteryx"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBeach",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Oviraptor",
+                    "Carbonemys",
+                    "Compy",
+                    "Lystrosaurus",
+                    "Moschops",
+                    "Pegomastax",
+                    "Ichthyornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBee",
+                "dinos": [
+                    "Giant Queen Bee"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave1",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave2",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCave5_Tough",
+                "dinos": [
+                    "Titanoboa",
+                    "Arthropluera",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Onyc",
+                    "Dung Beetle"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveMegalo",
+                "dinos": [
+                    "Megalosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesDamiensAtoll",
+                "dinos": [
+                    "Parasaur",
+                    "Triceratops",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Phiomia"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGigant",
+                "dinos": [
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesGrassland",
+                "dinos": [
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Raptor",
+                    "Rex",
+                    "Phiomia",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Meganeura",
+                    "Doedicurus",
+                    "Pachy",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Terror Bird",
+                    "Allosaurus",
+                    "Pachyrhinosaurus",
+                    "Ovis",
+                    "Microraptor",
+                    "Equus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMegalania",
+                "dinos": [
+                    "Megalania"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMonsterIsland",
+                "dinos": [
+                    "Raptor",
+                    "Sabertooth",
+                    "Rex",
+                    "Pulmonoscorpius",
+                    "Argentavis",
+                    "Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesMountain",
+                "dinos": [
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Dimorphodon",
+                    "Raptor",
+                    "Sabertooth",
+                    "Rex",
+                    "Pulmonoscorpius",
+                    "Argentavis",
+                    "Carnotaurus",
+                    "Doedicurus",
+                    "Pachy",
+                    "Procoptodon",
+                    "Allosaurus",
+                    "Kentrosaurus",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesPelican",
+                "dinos": [
+                    "Pelagornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesPenguins",
+                "dinos": [
+                    "Kairuku"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesQuetz",
+                "dinos": [
+                    "Quetzal"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesRedwoods",
+                "dinos": [
+                    "Pteranodon",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Doedicurus",
+                    "Paraceratherium",
+                    "Diplodocus",
+                    "Gallimimus",
+                    "Terror Bird",
+                    "Gigantopithecus",
+                    "Dire Bear",
+                    "Dimorphodon",
+                    "Compy",
+                    "Megaloceros",
+                    "Achatina",
+                    "Troodon",
+                    "Pegomastax",
+                    "Purlovia",
+                    "Microraptor",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSnow",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Yutyrannus, Carnotaurus",
+                    "Argentavis",
+                    "Woolly Rhino",
+                    "Chalicotherium",
+                    "Purlovia",
+                    "Ovis",
+                    "Daeodon",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSwamp",
+                "dinos": [
+                    "Dilophosaur",
+                    "Phiomia",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Paraceratherium",
+                    "Titanoboa",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesThy",
+                "dinos": [
+                    "Thylacoleo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesTinyCave",
+                "dinos": [
+                    "Onyc",
+                    "Araneo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesTitano",
+                "dinos": [
+                    "Titanosaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesUnicorn",
+                "dinos": [
+                    "Unicorn"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesWater",
+                "dinos": [
+                    "Coelacanth"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Beavers",
+                "dinos": [
+                    "Castoroides"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater",
+                "dinos": [
+                    "Plesiosaur"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWaterAngler",
+                "dinos": [
+                    "Anglerfish",
+                    "Electrophorus",
+                    "Dunkleosteus",
+                    "Eurypterid",
+                    "Ammonite",
+                    "Cnidaria"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Lio",
+                "dinos": [
+                    "Liopleurodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Mosa",
+                "dinos": [
+                    "Mosasaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DarkWater_Tuso",
+                "dinos": [
+                    "Tusoteuthis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_DeepWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Megalodon",
+                    "Ichthyosaurus",
+                    "Manta",
+                    "Trilobite",
+                    "Cnidaria"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_InlandWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Piranha",
+                    "Spino",
+                    "Baryonyx",
+                    "Hesperornis",
+                    "Otter"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_RedwoodWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Otter"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_SwampWater",
+                "dinos": [
+                    "Leech, Diseased Leech",
+                    "Coelacanth",
+                    "Piranha",
+                    "Beelzebufo",
+                    "Sarco",
+                    "Kaprosuchus",
+                    "Dimetrodon",
+                    "Diplocaulus",
+                    "Baryonyx"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesBadlands",
+                "dinos": [
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Pulmonoscorpius",
+                    "Terror Bird",
+                    "Thorny Dragon",
+                    "Vulture",
+                    "Lymantria",
+                    "Morellatops",
+                    "Sabertooth",
+                    "Doedicurus",
+                    "Direwolf",
+                    "Carnotaurus",
+                    "Arthropluera",
+                    "Ankylosaurus",
+                    "Titanoboa",
+                    "Oil Jug Bug, Water Jug Bug",
+                    "Rock Elemental",
+                    "Troodon",
+                    "Thylacoleo",
+                    "Daeodon",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesCanyons",
+                "dinos": [
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Pulmonoscorpius",
+                    "Terror Bird",
+                    "Thorny Dragon",
+                    "Sabertooth",
+                    "Doedicurus",
+                    "Direwolf",
+                    "Titanoboa",
+                    "Oil Jug Bug, Water Jug Bug",
+                    "Morellatops",
+                    "Purlovia",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesDunes",
+                "dinos": [
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Pulmonoscorpius",
+                    "Vulture",
+                    "Arthropluera",
+                    "Titanoboa",
+                    "Mantis",
+                    "Dung Beetle",
+                    "Oil Jug Bug, Water Jug Bug"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesGreenDesert",
+                "dinos": [
+                    "Oil Jug Bug",
+                    "Water Jug Bug",
+                    "Terror Bird",
+                    "Lymantria",
+                    "Doedicurus",
+                    "Paraceratherium",
+                    "Gallimimus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Morellatops",
+                    "Sabertooth",
+                    "Lystrosaurus",
+                    "Ankylosaurus",
+                    "Direwolf",
+                    "Procoptodon",
+                    "Thorny Dragon",
+                    "Rock Elemental",
+                    "Jerboa",
+                    "Archaeopteryx",
+                    "Pegomastax",
+                    "Microraptor",
+                    "Equus",
+                    "Daeodon",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesMountain",
+                "dinos": [
+                    "Pulmonoscorpius",
+                    "Thorny Dragon",
+                    "Sabertooth",
+                    "Carnotaurus",
+                    "Argentavis",
+                    "Tapejara",
+                    "Ankylosaurus",
+                    "Lymantria",
+                    "Vulture",
+                    "Rock Elemental",
+                    "Equus",
+                    "Kentrosaurus",
+                    "Yutyrannus, Carnotaurus",
+                    "Hyaenodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesOasis",
+                "dinos": [
+                    "Raptor",
+                    "Lymantria",
+                    "Procoptodon",
+                    "Lystrosaurus",
+                    "Morellatops",
+                    "Paraceratherium",
+                    "Gallimimus",
+                    "Jerboa",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Moschops",
+                    "Pegomastax",
+                    "Ovis",
+                    "Iguanodon"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesSandworm",
+                "dinos": [
+                    "Deathworm"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesWyvern",
+                "dinos": [
+                    "Fire Wyvern",
+                    "Lightning Wyvern",
+                    "Poison Wyvern"
+                ]
+            },
+            {
+                "name": "SE_DinoSpawnEntriesWyvernTrench",
+                "dinos": [
+                    "Titanoboa",
+                    "Mantis",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Dung Beetle",
+                    "Arthropluera"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Extinction",
+        "entries": [
+            {
+                "name": "DinoSpawnEntriesQuetz_EX",
+                "dinos": [
+                    "Quetzal"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_CityCenter",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Megaloceros",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Oviraptor",
+                    "Carbonemys",
+                    "Compy",
+                    "Lystrosaurus",
+                    "Moschops",
+                    "Scout",
+                    "Defense Unit",
+                    "Enforcer",
+                    "Meganeura",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Ichthyornis",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Phiomia",
+                    "Archaeopteryx",
+                    "Iguanodon",
+                    "Mesopithecus",
+                    "Dung Beetle",
+                    "Achatina",
+                    "Tapejara",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_CityCenter_DangerClose",
+                "dinos": [
+                    "Dodo",
+                    "Raptor",
+                    "Triceratops",
+                    "Megaloceros",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Oviraptor",
+                    "Carbonemys",
+                    "Compy",
+                    "Lystrosaurus",
+                    "Moschops",
+                    "Scout",
+                    "Defense Unit",
+                    "Enforcer",
+                    "Meganeura",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Araneo",
+                    "Pulmonoscorpius",
+                    "Hyaenodon",
+                    "Carnotaurus",
+                    "Terror Bird",
+                    "Tapejara"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_CityObelisk",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Megaloceros",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Compy",
+                    "Scout",
+                    "Defense Unit",
+                    "Enforcer",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Kentrosaurus",
+                    "Pachy",
+                    "Doedicurus",
+                    "Carnotaurus",
+                    "Argentavis",
+                    "Pulmonoscorpius",
+                    "Rex",
+                    "Sabertooth",
+                    "Raptor"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_CityTier2_Building",
+                "dinos": [
+                    "Pteranodon",
+                    "Scout",
+                    "Enforcer",
+                    "Archaeopteryx",
+                    "Tapejara",
+                    "Araneo"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_CityTier2_Building_DangerClose",
+                "dinos": [
+                    "Pteranodon",
+                    "Scout",
+                    "Enforcer",
+                    "Archaeopteryx",
+                    "Tapejara",
+                    "Araneo",
+                    "Carnotaurus",
+                    "Dilophosaur",
+                    "Argentavis",
+                    "Microraptor"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_CityTier2_Fliers",
+                "dinos": [
+                    "Pteranodon",
+                    "Scout",
+                    "Enforcer",
+                    "Archaeopteryx",
+                    "Tapejara"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_City_Park2",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Megaloceros",
+                    "Pteranodon",
+                    "Dilophosaur",
+                    "Oviraptor",
+                    "Carbonemys",
+                    "Compy",
+                    "Scout",
+                    "Defense Unit",
+                    "Enforcer",
+                    "Meganeura",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Ichthyornis",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Equus",
+                    "Microraptor",
+                    "Ovis",
+                    "Pachyrhinosaurus",
+                    "Gallimimus",
+                    "Diplodocus",
+                    "Phiomia",
+                    "Rex",
+                    "Brontosaurus",
+                    "Raptor"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_City_Buffer_1",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Corrupted Raptor",
+                    "Corrupted Pteranodon",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Carnotaurus",
+                    "Raptor",
+                    "Pulmonoscorpius",
+                    "Araneo",
+                    "Titanoboa"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_City_Buffer_2",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Corrupted Raptor",
+                    "Corrupted Pteranodon",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Carnotaurus",
+                    "Raptor",
+                    "Defense Unit",
+                    "Scout",
+                    "Pulmonoscorpius",
+                    "Araneo",
+                    "Titanoboa"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_Easy",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Corrupted Raptor",
+                    "Corrupted Chalicotherium",
+                    "Corrupted Pteranodon",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Carnotaurus",
+                    "Raptor",
+                    "Gasbags"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_Hard",
+                "dinos": [
+                    "Corrupted Raptor",
+                    "Corrupted Paraceratherium",
+                    "Corrupted Wyvern",
+                    "Corrupted Rock Drake",
+                    "Corrupted Reaper King",
+                    "Corrupted Rex, Corrupted Spino",
+                    "Rex",
+                    "Spino",
+                    "Brontosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_Medium",
+                "dinos": [
+                    "Corrupted Stegosaurus",
+                    "Corrupted Paraceratherium",
+                    "Corrupted Raptor",
+                    "Corrupted Spino",
+                    "Corrupted Arthropluera",
+                    "Corrupted Rex",
+                    "Corrupted Giganotosaurus",
+                    "Dire Bear",
+                    "Therizinosaur",
+                    "Thylacoleo",
+                    "Gasbags",
+                    "Tapejara"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_DesertCave",
+                "dinos": [
+                    "Arthropluera",
+                    "Mantis",
+                    "Onyc",
+                    "Titanoboa",
+                    "Rubble Golem",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_DesertMountain",
+                "dinos": [
+                    "Doedicurus",
+                    "Procoptodon",
+                    "Carnotaurus",
+                    "Tapejara",
+                    "Ankylosaurus",
+                    "Meganeura",
+                    "Dimetrodon",
+                    "Rock Elemental",
+                    "Equus",
+                    "Kentrosaurus",
+                    "Yutyrannus, Carnotaurus",
+                    "Velonasaur",
+                    "Pulmonoscorpius",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Morellatops",
+                    "Thorny Dragon"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_DesertOasis",
+                "dinos": [
+                    "Doedicurus",
+                    "Procoptodon",
+                    "Allosaurus",
+                    "Stegosaurus",
+                    "Tapejara",
+                    "Ankylosaurus",
+                    "Meganeura",
+                    "Dimetrodon",
+                    "Spino",
+                    "Equus",
+                    "Kentrosaurus",
+                    "Dodo",
+                    "Velonasaur",
+                    "Pulmonoscorpius",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Lymantria",
+                    "Water Jug Bug",
+                    "Morellatops",
+                    "Thorny Dragon"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_Forest",
+                "dinos": [
+                    "Dodo",
+                    "Parasaur",
+                    "Triceratops",
+                    "Stegosaurus",
+                    "Dilophosaur",
+                    "Raptor",
+                    "Phiomia",
+                    "Carbonemys",
+                    "Carnotaurus",
+                    "Titanomyrma Drone, Titanomyrma Soldier",
+                    "Compy",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Diplodocus",
+                    "Mesopithecus",
+                    "Pachy",
+                    "Oviraptor",
+                    "Lystrosaurus",
+                    "Tapejara",
+                    "Chalicotherium",
+                    "Moschops",
+                    "Therizinosaur",
+                    "Troodon",
+                    "Iguanodon",
+                    "Gacha"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_ShallowWater_Cave",
+                "dinos": [
+                    "Coelacanth",
+                    "Kaprosuchus",
+                    "Piranha",
+                    "Sarco"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_ShallowWater_Desert",
+                "dinos": [
+                    "Coelacanth",
+                    "Kaprosuchus",
+                    "Piranha",
+                    "Hesperornis"
+                ]
+            },
+            {
+                "name": "Ext_DinoSpawnEntries_ShallowWater_Ice",
+                "dinos": [
+                    "Coelacanth",
+                    "Kairuku",
+                    "Sabertooth Salmon",
+                    "Hesperornis"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_City_Trench",
+                "dinos": [
+                    "Megalosaurus",
+                    "Megalania",
+                    "Sarco",
+                    "Beelzebufo",
+                    "Kaprosuchus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_ParkWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Otter",
+                    "Sarco",
+                    "Beelzebufo",
+                    "Kaprosuchus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_ParkWater2",
+                "dinos": [
+                    "Coelacanth",
+                    "Otter",
+                    "Baryonyx",
+                    "Diplocaulus",
+                    "Dimetrodon",
+                    "Kaprosuchus",
+                    "Sarco",
+                    "Beelzebufo",
+                    "Piranha",
+                    "Sabertooth Salmon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_DesertBuffer",
+                "dinos": [
+                    "Dilophosaur",
+                    "Morellatops",
+                    "Direwolf",
+                    "Pteranodon",
+                    "Corrupted Pteranodon",
+                    "Stegosaurus",
+                    "Carnotaurus",
+                    "Raptor",
+                    "Gasbags",
+                    "Pulmonoscorpius",
+                    "Triceratops"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_ForbiddenZone",
+                "dinos": [
+                    "Corrupted Giganotosaurus",
+                    "Corrupted Rex",
+                    "Corrupted Raptor",
+                    "Corrupted Chalicotherium",
+                    "Corrupted Wyvern",
+                    "Corrupted Carnotaurus",
+                    "Corrupted Deathworm"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_North",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Chalicotherium",
+                    "Corrupted Chalicotherium",
+                    "Corrupted Pteranodon",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Rex",
+                    "Pteranodon",
+                    "Gasbags",
+                    "Corrupted Rex",
+                    "Corrupted Rock Drake",
+                    "Triceratops",
+                    "Argentavis",
+                    "Therizinosaur",
+                    "Thylacoleo",
+                    "Sabertooth",
+                    "Dodo",
+                    "Dire Bear",
+                    "Corrupted Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_NorthCraterForest",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Chalicotherium",
+                    "Corrupted Chalicotherium",
+                    "Corrupted Pteranodon",
+                    "Ankylosaurus",
+                    "Stegosaurus",
+                    "Rex",
+                    "Pteranodon",
+                    "Corrupted Rock Drake",
+                    "Triceratops",
+                    "Argentavis",
+                    "Therizinosaur",
+                    "Thylacoleo",
+                    "Sabertooth",
+                    "Corrupted Reaper King"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_OilFields",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Spino",
+                    "Spino",
+                    "Arthropluera",
+                    "Corrupted Arthropluera",
+                    "Corrupted Pteranodon",
+                    "Corrupted Paraceratherium",
+                    "Paraceratherium",
+                    "Carnotaurus",
+                    "Brontosaurus",
+                    "Gasbags",
+                    "Titanoboa",
+                    "Corrupted Carnotaurus",
+                    "Corrupted Chalicotherium",
+                    "Corrupted Stegosaurus",
+                    "Stegosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_OilFields_Fliers",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Pteranodon",
+                    "Gasbags"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_SnowBuffer",
+                "dinos": [
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Direwolf",
+                    "Argentavis",
+                    "Corrupted Pteranodon",
+                    "Stegosaurus",
+                    "Yutyrannus",
+                    "Dire Bear",
+                    "Rex",
+                    "Chalicotherium",
+                    "Giganotosaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_South",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Corrupted Raptor",
+                    "Corrupted Pteranodon",
+                    "Dilophosaur",
+                    "Stegosaurus",
+                    "Carnotaurus",
+                    "Raptor",
+                    "Gasbags",
+                    "Triceratops, Stegosaurus",
+                    "Pulmonoscorpius",
+                    "Araneo",
+                    "Rex",
+                    "Corrupted Rex",
+                    "Brontosaurus",
+                    "Pteranodon",
+                    "Dodo, Pteranodon",
+                    "Corrupted Carnotaurus",
+                    "Dimetrodon"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Wasteland_Sulfur",
+                "dinos": [
+                    "Corrupted Dilophosaur",
+                    "Corrupted Stegosaurus",
+                    "Corrupted Triceratops",
+                    "Corrupted Raptor",
+                    "Corrupted Pteranodon",
+                    "Stegosaurus",
+                    "Carnotaurus",
+                    "Raptor",
+                    "Gasbags",
+                    "Pulmonoscorpius",
+                    "Araneo",
+                    "Titanoboa",
+                    "Spino",
+                    "Corrupted Spino",
+                    "Arthropluera",
+                    "Dung Beetle",
+                    "Meganeura"
+                ]
+            },
+            {
+                "name": "T_Ext_DinoSpawnEntriesSnow_1",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Snow Owl",
+                    "Woolly Rhino",
+                    "Chalicotherium",
+                    "Ovis",
+                    "Daeodon",
+                    "Megatherium",
+                    "Yutyrannus",
+                    "Dire Bear",
+                    "Managarmr"
+                ]
+            },
+            {
+                "name": "T_Ext_DinoSpawnEntriesSnow_Purlovia",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Snow Owl",
+                    "Woolly Rhino",
+                    "Chalicotherium",
+                    "Purlovia",
+                    "Ovis",
+                    "Daeodon",
+                    "Megatherium",
+                    "Rex",
+                    "Dire Bear"
+                ]
+            },
+            {
+                "name": "T_Ext_DinoSpawnEntriesSnow_TEMP",
+                "dinos": [
+                    "Direwolf",
+                    "Megaloceros",
+                    "Ankylosaurus",
+                    "Mammoth",
+                    "Sabertooth",
+                    "Snow Owl",
+                    "Woolly Rhino",
+                    "Chalicotherium",
+                    "Purlovia",
+                    "Ovis",
+                    "Daeodon",
+                    "Megatherium"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesBee",
+                "dinos": [
+                    "Giant Queen Bee"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_11",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesCaveTek_Hard_12",
+                "dinos": [
+                    "Rex",
+                    "Allosaurus, Kaprosuchus, Microraptor",
+                    "Therizinosaur, Terror Bird",
+                    "Baryonyx, Dilophosaur, Arthropluera",
+                    "Megalosaurus, Purlovia",
+                    "Yutyrannus, Carnotaurus"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesIceCave",
+                "dinos": [
+                    "Direwolf",
+                    "Purlovia",
+                    "Polar Bear",
+                    "Yeti"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntriesSwamp",
+                "dinos": [
+                    "Dilophosaur",
+                    "Phiomia",
+                    "Meganeura",
+                    "Dimorphodon",
+                    "Paraceratherium",
+                    "Titanoboa",
+                    "Achatina"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_Beavers",
+                "dinos": [
+                    "Castoroides"
+                ]
+            },
+            {
+                "name": "DinoSpawnEntries_RedwoodWater",
+                "dinos": [
+                    "Coelacanth",
+                    "Sabertooth Salmon",
+                    "Otter"
+                ]
+            }
+        ]
+    }
+]

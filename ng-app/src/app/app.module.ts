@@ -35,6 +35,7 @@ import { NgxFsModule } from 'ngx-fs';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { NgxElectronModule } from 'ngx-electron';
 import { ModalOutputConfigComponent } from './modals/modal-output-config/modal-output-config.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { ModalOutputConfigComponent } from './modals/modal-output-config/modal-o
     MatCheckboxModule,
     NgxElectronModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule
   ],
   providers: [
     { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } }
