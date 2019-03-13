@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/Megatone/ElectronNg-Ark-Tools-Server/issues"
   },
-  "homepage": "https://github.com/Megatone/ElectronNg-Ark-Tools-Server#readme"
+  "homepage": "https://github.com/Megatone/ElectronNg-Ark-Tools-Server#readme",
+  "dependencies": {}
 }

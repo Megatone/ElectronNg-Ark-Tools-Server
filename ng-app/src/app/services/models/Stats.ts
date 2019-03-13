@@ -18,6 +18,19 @@ export class Stats {
     this.name = _name;
   }
 
+
+  public load(stats: any): Stats {
+    if (stats && typeof stats === 'object') {
+      for (const key in this) {
+        if (stats.hasOwnProperty(key)) {
+          this[key] = <any>(<any>stats[<any>key]);
+        }
+      }
+    }
+    return this.validate() ? this : new Stats(this.name);
+  }
+
+
   public validate(): Boolean {
     return (
       this.validateName() &&

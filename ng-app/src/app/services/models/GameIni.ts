@@ -56,10 +56,12 @@ export class GameIni {
   constructor() {
   }
 
-  public load(gameIni: GameIni): GameIni {
-    for (const key in this) {
-      if (gameIni.hasOwnProperty(key)) {
-        this[key] = <any>(<any>gameIni[<any>key]);
+  public load(gameIni: any): GameIni {
+    if (gameIni && typeof gameIni === 'object') {
+      for (const key in this) {
+        if (gameIni.hasOwnProperty(key)) {
+          this[key] = <any>(<any>gameIni[<any>key]);
+        }
       }
     }
     return this.validate() ? this : new GameIni();

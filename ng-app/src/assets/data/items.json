@@ -1,0 +1,1444 @@
+[
+    {
+        "name": "Absorbent Substrate",
+        "img": "SubstrateAbsorbent.png",
+        "tag": "PrimalItemResource_SubstrateAbsorbent_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Achatina Paste",
+        "img": "SnailPaste.png",
+        "tag": "PrimalItemResource_SnailPaste_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Ammonite Bile",
+        "img": "AmmoniteBlood.png",
+        "tag": "PrimalItemResource_AmmoniteBlood_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Angler Gel",
+        "img": "AnglerGel.png",
+        "tag": "PrimalItemResource_AnglerGel_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Black Pearl",
+        "img": "BlackPearl.png",
+        "tag": "PrimalItemResource_BlackPearl_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Blue Gem",
+        "img": "Gem_BioLum.png",
+        "tag": "PrimalItemResource_Gem_BioLum_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Blood Pack",
+        "img": "BloodPack.png",
+        "tag": "PrimalItemConsumable_BloodPack_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Cementing Paste",
+        "img": "ChitinPaste.png",
+        "tag": "PrimalItemResource_ChitinPaste_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Charcoal",
+        "img": "Charcoal.png",
+        "tag": "PrimalItemResource_Charcoal_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Charge Battery",
+        "img": "ChargeBattery.png",
+        "tag": "PrimalItem_ChargeBattery_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Chitin or Keratin",
+        "img": "ChitinOrKeratin.png",
+        "tag": "PrimalItemResource_ChitinOrKeratin_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Chitin",
+        "img": "PrimalItemResource_Chitin.png",
+        "tag": "PrimalItemResource_Chitin_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Clay",
+        "img": "Clay.png",
+        "tag": "PrimalItemResource_Clay_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Congealed Gas Ball",
+        "img": "PrimalItemResource_Gas.png",
+        "tag": "PrimalItemResource_Gas_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Crystal",
+        "img": "Crystal.png",
+        "tag": "PrimalItemResource_Crystal_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Deathworm Horn",
+        "img": "KeratinSpike.png",
+        "tag": "PrimalItemResource_KeratinSpike_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Electronics",
+        "img": "Electronics.png",
+        "tag": "PrimalItemResource_Electronics_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Element",
+        "img": "PrimalItemResource_Element.png",
+        "tag": "PrimalItemResource_Element_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Element Ore",
+        "img": "ElementOre.png",
+        "tag": "PrimalItemResource_ElementOre_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Element Shard",
+        "img": "ElementShard.png",
+        "tag": "PrimalItemResource_ElementShard_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Fiber",
+        "img": "Fibers.png",
+        "tag": "PrimalItemResource_Fibers_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Flint",
+        "img": "Flint.png",
+        "tag": "PrimalItemResource_Flint_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Fungal Wood",
+        "img": "FungalWood.png",
+        "tag": "PrimalItemResource_FungalWood_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Gasoline",
+        "img": "Gasoline.png",
+        "tag": "PrimalItemResource_Gasoline_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Green Gem",
+        "img": "Gem_Fertile.png",
+        "tag": "PrimalItemResource_Gem_Fertile_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Gunpowder",
+        "img": "Gunpowder.png",
+        "tag": "PrimalItemResource_Gunpowder_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Hide",
+        "img": "PrimalItemResource_Hide.png",
+        "tag": "PrimalItemResource_Hide_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Human Hair",
+        "img": "PrimalItemResource_Hair.png",
+        "tag": "PrimalItemResource_Hair_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Keratin",
+        "img": "PrimalItemResource_Keratin.png",
+        "tag": "PrimalItemResource_Keratin_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Leech Blood",
+        "img": "LeechBlood.png",
+        "tag": "PrimalItemResource_LeechBlood_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Leech Blood or Horns",
+        "img": "Curing.png",
+        "tag": "PrimalItemResourceGeneric_Curing_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Metal Ingot",
+        "img": "PrimalItemResource_MetalIngot.png",
+        "tag": "PrimalItemResource_MetalIngot_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Metal",
+        "img": "PrimalItemResource_Metal.png",
+        "tag": "PrimalItemResource_Metal_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Obsidian",
+        "img": "Obsidian.png",
+        "tag": "PrimalItemResource_Obsidian_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Oil",
+        "img": "PrimalItemResource_Oil.png",
+        "tag": "PrimalItemResource_Oil_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Oil (Tusoteuthis)",
+        "img": "SquidOil.png",
+        "tag": "PrimalItemResource_SquidOil_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Organic Polymer",
+        "img": "Polymer_Organic.png",
+        "tag": "PrimalItemResource_Polymer_Organic_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Pelt",
+        "img": "PrimalItemResource_Pelt.png",
+        "tag": "PrimalItemResource_Pelt_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Pelt, Hair, or Wool",
+        "img": "PeltOrHair.png",
+        "tag": "PrimalItemResource_PeltOrHair_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Polymer",
+        "img": "PrimalItemResource_Polymer.png",
+        "tag": "PrimalItemResource_Polymer_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Preserving Salt",
+        "img": "PreservingSalt.png",
+        "tag": "PrimalItemResource_PreservingSalt_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Propellant",
+        "img": "Propellant.png",
+        "tag": "PrimalItemResource_Propellant_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Rare Flower",
+        "img": "RareFlower.png",
+        "tag": "PrimalItemResource_RareFlower_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Rare Mushroom",
+        "img": "RareMushroom.png",
+        "tag": "PrimalItemResource_RareMushroom_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Raw Salt",
+        "img": "RawSalt.png",
+        "tag": "PrimalItemResource_RawSalt_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Red Gem",
+        "img": "Gem_Element.png",
+        "tag": "PrimalItemResource_Gem_Element_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Sand",
+        "img": "Sand.png",
+        "tag": "PrimalItemResource_Sand_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Sap",
+        "img": "PrimalItemResource_Sap.png",
+        "tag": "PrimalItemResource_Sap_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Silica Pearls",
+        "img": "Silicon.png",
+        "tag": "PrimalItemResource_Silicon_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Silk",
+        "img": "Silk.png",
+        "tag": "PrimalItemResource_Silk_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Sparkpowder",
+        "img": "Sparkpowder.png",
+        "tag": "PrimalItemResource_Sparkpowder_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Stimulant",
+        "img": "Stimulant.png",
+        "tag": "PrimalItemConsumable_Stimulant_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Stone",
+        "img": "PrimalItemResource_Stone.png",
+        "tag": "PrimalItemResource_Stone_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Sulfur",
+        "img": "Sulfur.png",
+        "tag": "PrimalItemResource_Sulfur_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Thatch",
+        "img": "PrimalItemResource_Thatch.png",
+        "tag": "PrimalItemResource_Thatch_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Wood",
+        "img": "PrimalItemResource_Wood.png",
+        "tag": "PrimalItemResource_Wood_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Wool",
+        "img": "Wool.png",
+        "tag": "PrimalItemResource_Wool_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Woolly Rhino Horn",
+        "img": "PrimalItemResource_Horn.png",
+        "tag": "PrimalItemResource_Horn_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Dinosaur Bone",
+        "img": "ARKBone.png",
+        "tag": "PrimalItemResource_ARKBone_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Dermis",
+        "img": "TaxidermyDermis.png",
+        "tag": "PrimalItem_TaxidermyDermis_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Condensed Gas",
+        "img": "CondensedGas.png",
+        "tag": "PrimalItemResource_CondensedGas_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Corrupted Nodule",
+        "img": "CorruptedPolymer.png",
+        "tag": "PrimalItemResource_CorruptedPolymer_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Red Crystalized Sap",
+        "img": "RedSap.png",
+        "tag": "PrimalItemResource_RedSap_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Blue Crystalized Sap",
+        "img": "BlueSap.png",
+        "tag": "PrimalItemResource_BlueSap_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Element Dust",
+        "img": "PrimalItemResource_ElementDust.png",
+        "tag": "PrimalItemResource_ElementDust_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Corrupted Wood",
+        "img": "CorruptedWood.png",
+        "tag": "PrimalItemResource_CorruptedWood_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Scrap Metal",
+        "img": "PrimalItemResource_ScrapMetal.png",
+        "tag": "PrimalItemResource_ScrapMetal_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Scrap Metal Ingot",
+        "img": "ScrapMetalIngot.png",
+        "tag": "PrimalItemResource_ScrapMetalIngot_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Fragmented Green Gem",
+        "img": "FracturedGem.png",
+        "tag": "PrimalItemResource_FracturedGem_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Unstable Element",
+        "img": "ElementRefined.png",
+        "tag": "PrimalItemResource_ElementRefined_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Unstable Element Shard",
+        "img": "ShardRefined.png",
+        "tag": "PrimalItemResource_ShardRefined_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Silicate",
+        "img": "Silicate.png",
+        "tag": "PrimalItemResource_Silicate_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Crafted Element Dust",
+        "img": "ElementDustFromShards.png",
+        "tag": "PrimalItemResource_ElementDustFromShards_C",
+        "multiplier": 1,
+        "type": "resources"
+    },
+    {
+        "name": "Raw Meat",
+        "img": "PrimalItemConsumable_RawMeat.png",
+        "tag": "PrimalItemConsumable_RawMeat_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Spoiled Meat",
+        "img": "SpoiledMeat.png",
+        "tag": "PrimalItemConsumable_SpoiledMeat_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cooked Meat",
+        "img": "PrimalItemConsumable_CookedMeat.png",
+        "tag": "PrimalItemConsumable_CookedMeat_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Raw Prime Meat",
+        "img": "PrimalItemConsumable_RawPrimeMeat.png",
+        "tag": "PrimalItemConsumable_RawPrimeMeat_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cooked Prime Meat",
+        "img": "PrimalItemConsumable_CookedPrimeMeat.png",
+        "tag": "PrimalItemConsumable_CookedPrimeMeat_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cooked Meat Jerky",
+        "img": "CookedMeat_Jerky.png",
+        "tag": "PrimalItemConsumable_CookedMeat_Jerky_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Prime Meat Jerky",
+        "img": "CookedPrimeMeat_Jerky.png",
+        "tag": "PrimalItemConsumable_CookedPrimeMeat_Jerky_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Raw Fish Meat",
+        "img": "RawMeat_Fish.png",
+        "tag": "PrimalItemConsumable_RawMeat_Fish_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cooked Fish Meat",
+        "img": "CookedMeat_Fish.png",
+        "tag": "PrimalItemConsumable_CookedMeat_Fish_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Raw Prime Fish Meat",
+        "img": "RawPrimeMeat_Fish.png",
+        "tag": "PrimalItemConsumable_RawPrimeMeat_Fish_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cooked Prime Fish Meat",
+        "img": "CookedPrimeMeat_Fish.png",
+        "tag": "PrimalItemConsumable_CookedPrimeMeat_Fish_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Raw Mutton",
+        "img": "RawMutton.png",
+        "tag": "PrimalItemConsumable_RawMutton_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cooked Lamb Chop",
+        "img": "CookedLambChop.png",
+        "tag": "PrimalItemConsumable_CookedLambChop_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Filled Fish Basket",
+        "img": "FishBasketFilled.png",
+        "tag": "PrimalItem_FishBasketFilled_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Wyvern Milk",
+        "img": "WyvernMilk.png",
+        "tag": "PrimalItemConsumable_WyvernMilk_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Amarberry",
+        "img": "Berry_Amarberry.png",
+        "tag": "PrimalItemConsumable_Berry_Amarberry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Azulberry",
+        "img": "Berry_Azulberry.png",
+        "tag": "PrimalItemConsumable_Berry_Azulberry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Mejoberry",
+        "img": "Berry_Mejoberry.png",
+        "tag": "PrimalItemConsumable_Berry_Mejoberry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Narcoberry",
+        "img": "Berry_Narcoberry.png",
+        "tag": "PrimalItemConsumable_Berry_Narcoberry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Stimberry",
+        "img": "Berry_Stimberry.png",
+        "tag": "PrimalItemConsumable_Berry_Stimberry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Tintoberry",
+        "img": "Berry_Tintoberry.png",
+        "tag": "PrimalItemConsumable_Berry_Tintoberry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cactus Sap",
+        "img": "CactusSap.png",
+        "tag": "PrimalItemConsumable_CactusSap_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Citronal",
+        "img": "Veggie_Citronal.png",
+        "tag": "PrimalItemConsumable_Veggie_Citronal_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Longrass",
+        "img": "Veggie_Longrass.png",
+        "tag": "PrimalItemConsumable_Veggie_Longrass_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Rockarrot",
+        "img": "Veggie_Rockarrot.png",
+        "tag": "PrimalItemConsumable_Veggie_Rockarrot_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Savoroot",
+        "img": "Veggie_Savoroot.png",
+        "tag": "PrimalItemConsumable_Veggie_Savoroot_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Aggeravic Mushroom",
+        "img": "CommonMushroom.png",
+        "tag": "PrimalItemResource_CommonMushroom_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Aquatic Mushroom",
+        "img": "Mushroom_Aquatic.png",
+        "tag": "PrimalItemConsumable_Mushroom_Aquatic_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Ascerbic Mushroom",
+        "img": "Mushroom_Ascerbic.png",
+        "tag": "PrimalItemConsumable_Mushroom_Ascerbic_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Auric Mushroom",
+        "img": "Mushroom_Auric.png",
+        "tag": "PrimalItemConsumable_Mushroom_Auric_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Mushroom Brew",
+        "img": "Soup_MushroomSoup.png",
+        "tag": "PrimalItemConsumable_Soup_MushroomSoup_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Waterskin (Empty)",
+        "img": "WaterskinCraftable.png",
+        "tag": "PrimalItemConsumable_WaterskinCraftable_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Waterskin (Filled)",
+        "img": "WaterskinRefill.png",
+        "tag": "PrimalItemConsumable_WaterskinRefill_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Water Jar (Empty)",
+        "img": "WaterJarCraftable.png",
+        "tag": "PrimalItemConsumable_WaterJarCraftable_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Water Jar (Full)",
+        "img": "PrimalItemConsumable_WaterJarRefill.png",
+        "tag": "PrimalItemConsumable_WaterJarRefill_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Iced Water Jar (Empty)",
+        "img": "PrimalItemConsumable_IcedWaterJar.png",
+        "tag": "PrimalItemConsumable_IcedWaterJar_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Iced Water Jar (Full)",
+        "img": "IcedWaterJarRefill.png",
+        "tag": "PrimalItemConsumable_IcedWaterJarRefill_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Canteen (Empty)",
+        "img": "CanteenCraftable.png",
+        "tag": "PrimalItemConsumable_CanteenCraftable_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Canteen (Full)",
+        "img": "PrimalItemConsumable_CanteenRefill.png",
+        "tag": "PrimalItemConsumable_CanteenRefill_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Iced Canteen (Empty)",
+        "img": "PrimalItemConsumable_IcedCanteen.png",
+        "tag": "PrimalItemConsumable_IcedCanteen_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Iced Canteen (Full)",
+        "img": "IcedCanteenRefill.png",
+        "tag": "PrimalItemConsumable_IcedCanteenRefill_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Beer Liquid",
+        "img": "PrimalItemResource_Beer.png",
+        "tag": "PrimalItemResource_Beer_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Beer Jar",
+        "img": "PrimalItemConsumable_BeerJar.png",
+        "tag": "PrimalItemConsumable_BeerJar_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Bio Toxin",
+        "img": "JellyVenom.png",
+        "tag": "PrimalItemConsumable_JellyVenom_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Medical Brew",
+        "img": "PrimalItemConsumable_HealSoup.png",
+        "tag": "PrimalItemConsumable_HealSoup_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Energy Brew",
+        "img": "PrimalItemConsumable_StaminaSoup.png",
+        "tag": "PrimalItemConsumable_StaminaSoup_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Battle Tartare",
+        "img": "Soup_BattleTartare.png",
+        "tag": "PrimalItemConsumable_Soup_BattleTartare_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Broth of Enlightenment",
+        "img": "TheHorn.png",
+        "tag": "PrimalItemConsumable_TheHorn_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Bug Repellant",
+        "img": "BugRepellant.png",
+        "tag": "PrimalItemConsumable_BugRepellant_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Cactus Broth",
+        "img": "CactusBuffSoup.png",
+        "tag": "PrimalItemConsumable_CactusBuffSoup_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Calien Soup",
+        "img": "Soup_CalienSoup.png",
+        "tag": "PrimalItemConsumable_Soup_CalienSoup_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Enduro Stew",
+        "img": "Soup_EnduroStew.png",
+        "tag": "PrimalItemConsumable_Soup_EnduroStew_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Focal Chili",
+        "img": "Soup_FocalChili.png",
+        "tag": "PrimalItemConsumable_Soup_FocalChili_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Fria Curry",
+        "img": "Soup_FriaCurry.png",
+        "tag": "PrimalItemConsumable_Soup_FriaCurry_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Lazarus Chowder",
+        "img": "Soup_LazarusChowder.png",
+        "tag": "PrimalItemConsumable_Soup_LazarusChowder_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Lesser Antidote",
+        "img": "CureLow.png",
+        "tag": "PrimalItemConsumable_CureLow_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Mindwipe Tonic",
+        "img": "PrimalItemConsumableRespecSoup.png",
+        "tag": "PrimalItemConsumableRespecSoup_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Shadow Steak Saute",
+        "img": "Soup_ShadowSteak.png",
+        "tag": "PrimalItemConsumable_Soup_ShadowSteak_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Soap",
+        "img": "PrimalItemConsumableSoap.png",
+        "tag": "PrimalItemConsumableSoap_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Sweet Vegetable Cake",
+        "img": "SweetVeggieCake.png",
+        "tag": "PrimalItemConsumable_SweetVeggieCake_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Giant Bee Honey",
+        "img": "Honey.png",
+        "tag": "PrimalItemConsumable_Honey_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Allosaurus Egg)",
+        "img": "Kibble_Allo.png",
+        "tag": "PrimalItemConsumable_Kibble_Allo_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Ankylo Egg)",
+        "img": "Kibble_AnkyloEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_AnkyloEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Araneo Egg)",
+        "img": "Kibble_SpiderEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_SpiderEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Archaeopteryx Egg)",
+        "img": "Kibble_ArchaEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_ArchaEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Argentavis Egg)",
+        "img": "Kibble_ArgentEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_ArgentEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Baryonyx Egg)",
+        "img": "Kibble_BaryonyxEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_BaryonyxEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Bronto Egg)",
+        "img": "Kibble_SauroEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_SauroEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Camelsaurus Egg)",
+        "img": "Kibble_Camelsaurus.png",
+        "tag": "PrimalItemConsumable_Kibble_Camelsaurus_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Carbonemys Egg)",
+        "img": "Kibble_TurtleEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_TurtleEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Carno Egg)",
+        "img": "Kibble_CarnoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_CarnoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Compy Egg)",
+        "img": "Kibble_Compy.png",
+        "tag": "PrimalItemConsumable_Kibble_Compy_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Dilo Egg)",
+        "img": "Kibble_DiloEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_DiloEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Dimetrodon Egg)",
+        "img": "Kibble_DimetroEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_DimetroEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Dimorph Egg)",
+        "img": "Kibble_DimorphEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_DimorphEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Diplo Egg)",
+        "img": "Kibble_DiploEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_DiploEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Dodo Egg)",
+        "img": "Kibble_DodoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_DodoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Featherlight Egg)",
+        "img": "Kibble_LanternBirdEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_LanternBirdEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Gallimimus Egg)",
+        "img": "Kibble_GalliEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_GalliEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Glowtail Egg)",
+        "img": "Kibble_LanternLizardEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_LanternLizardEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Ichthyornis Egg)",
+        "img": "Kibble_IchthyornisEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_IchthyornisEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Iguanodon Egg)",
+        "img": "Kibble_IguanodonEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_IguanodonEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Kairuku Egg)",
+        "img": "Kibble_KairukuEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_KairukuEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Kaprosuchus Egg)",
+        "img": "Kibble_KaproEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_KaproEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Kentrosaurus Egg)",
+        "img": "Kibble_KentroEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_KentroEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Lystrosaurus Egg)",
+        "img": "Kibble_LystroEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_LystroEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Mantis Egg)",
+        "img": "Kibble_Mantis.png",
+        "tag": "PrimalItemConsumable_Kibble_Mantis_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Megalania Egg)",
+        "img": "Kibble_Megalania.png",
+        "tag": "PrimalItemConsumable_Kibble_Megalania_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Megalosaurus Egg)",
+        "img": "Kibble_MegalosaurusEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_MegalosaurusEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Microraptor Egg)",
+        "img": "Kibble_MicroraptorEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_MicroraptorEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Moschops Egg)",
+        "img": "Kibble_MoschopsEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_MoschopsEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Moth Egg)",
+        "img": "Kibble_Moth.png",
+        "tag": "PrimalItemConsumable_Kibble_Moth_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Oviraptor Egg)",
+        "img": "Kibble_OviraptorEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_OviraptorEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Pachy Egg)",
+        "img": "Kibble_PachyEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_PachyEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Pachyrhino Egg)",
+        "img": "Kibble_PachyRhinoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_PachyRhinoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Parasaur Egg)",
+        "img": "Kibble_ParaEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_ParaEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Pegomastax Egg)",
+        "img": "Kibble_PegomastaxEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_PegomastaxEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Pelagornis Egg)",
+        "img": "Kibble_Pela.png",
+        "tag": "PrimalItemConsumable_Kibble_Pela_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Pteranodon Egg)",
+        "img": "Kibble_PteroEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_PteroEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Pulmonoscorpius Egg)",
+        "img": "Kibble_ScorpionEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_ScorpionEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Quetzal Egg)",
+        "img": "Kibble_QuetzEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_QuetzEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Raptor Egg)",
+        "img": "Kibble_RaptorEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_RaptorEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Rex Egg)",
+        "img": "Kibble_RexEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_RexEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Rock Drake Egg)",
+        "img": "Kibble_RockDrakeEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_RockDrakeEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Sarco Egg)",
+        "img": "Kibble_SarcoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_SarcoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Spino Egg)",
+        "img": "Kibble_SpinoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_SpinoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Stego Egg)",
+        "img": "Kibble_StegoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_StegoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Tapejara Egg)",
+        "img": "Kibble_TapejaraEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_TapejaraEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Terror Bird Egg)",
+        "img": "Kibble_TerrorbirdEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_TerrorbirdEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Therizinosaurus Egg)",
+        "img": "Kibble_TherizinoEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_TherizinoEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Thorny Dragon Egg)",
+        "img": "Kibble_SpineyLizard.png",
+        "tag": "PrimalItemConsumable_Kibble_SpineyLizard_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Titanboa Egg)",
+        "img": "Kibble_BoaEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_BoaEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Trike Egg)",
+        "img": "Kibble_TrikeEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_TrikeEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Troodon Egg)",
+        "img": "Kibble_TroodonEgg.png",
+        "tag": "PrimalItemConsumable_Kibble_TroodonEgg_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Kibble (Vulture Egg)",
+        "img": "Kibble_Vulture.png",
+        "tag": "PrimalItemConsumable_Kibble_Vulture_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Superior Augmented Kibble",
+        "img": "Kibble_Base_Large_EX.png",
+        "tag": "PrimalItemConsumable_Kibble_Base_Large_EX_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Regular Augmented Kibble",
+        "img": "Kibble_Base_Medium_EX.png",
+        "tag": "PrimalItemConsumable_Kibble_Base_Medium_EX_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Extraordinary Augmented Kibble",
+        "img": "Kibble_Base_Special_EX.png",
+        "tag": "PrimalItemConsumable_Kibble_Base_Special_EX_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Exceptional Augmented Kibble",
+        "img": "Kibble_Base_XLarge_EX.png",
+        "tag": "PrimalItemConsumable_Kibble_Base_XLarge_EX_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Gacha Crystal",
+        "img": "GachaPod.png",
+        "tag": "PrimalItemConsumable_GachaPod_C",
+        "multiplier": 1,
+        "type": "consumables"
+    },
+    {
+        "name": "Amarberry Seed",
+        "img": "PrimalItemConsumable_Seed_Amarberry.png",
+        "tag": "PrimalItemConsumable_Seed_Amarberry_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Azulberry Seed",
+        "img": "PrimalItemConsumable_Seed_Azulberry.png",
+        "tag": "PrimalItemConsumable_Seed_Azulberry_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Citronal Seed",
+        "img": "PrimalItemConsumable_Seed_Citronal.png",
+        "tag": "PrimalItemConsumable_Seed_Citronal_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Longrass Seed",
+        "img": "PrimalItemConsumable_Seed_Longrass.png",
+        "tag": "PrimalItemConsumable_Seed_Longrass_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Mejoberry Seed",
+        "img": "PrimalItemConsumable_Seed_Mejoberry.png",
+        "tag": "PrimalItemConsumable_Seed_Mejoberry_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Narcoberry Seed",
+        "img": "PrimalItemConsumable_Seed_Narcoberry.png",
+        "tag": "PrimalItemConsumable_Seed_Narcoberry_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Plant Species X Seed",
+        "img": "PrimalItemConsumable_Seed_DefensePlant.png",
+        "tag": "PrimalItemConsumable_Seed_DefensePlant_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Plant Species Y Seed",
+        "img": "PrimalItemConsumable_Seed_PlantSpeciesY.png",
+        "tag": "PrimalItemConsumable_Seed_PlantSpeciesY_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Plant Species Z Seed",
+        "img": "PrimalItemConsumable_Seed_PlantSpeciesZ.png",
+        "tag": "PrimalItemConsumable_Seed_PlantSpeciesZ_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Rockarrot Seed",
+        "img": "PrimalItemConsumable_Seed_Rockarrot.png",
+        "tag": "PrimalItemConsumable_Seed_Rockarrot_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Savoroot Seed",
+        "img": "PrimalItemConsumable_Seed_Savoroot.png",
+        "tag": "PrimalItemConsumable_Seed_Savoroot_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Stimberry Seed",
+        "img": "PrimalItemConsumable_Seed_Stimberry.png",
+        "tag": "PrimalItemConsumable_Seed_Stimberry_C",
+        "multiplier": 1,
+        "type": "seeds"
+    },
+    {
+        "name": "Tintoberry Seed",
+        "img": "PrimalItemConsumable_Seed_Tintoberry.png",
+        "tag": "PrimalItemConsumable_Seed_Tintoberry_C",
+        "multiplier": 1,
+        "type": "seeds"
+    }
+]

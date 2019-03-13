@@ -1,7 +1,7 @@
-<div style="height: -webkit-fill-available;">
+<div style="height: -webkit-fill-available;" *ngIf="loaded">
 
   <div class="container" style="padding-top: 1.5em;">
-      <input type="file" id="file" style="display:none" (change)="onloadConfig($event)" accept=".json">
+    <input type="file" id="file" style="display:none" (change)="onloadConfig($event)" accept=".json">
     <button class="btn btn-50" (click)="import()">Import Config JSON</button>
     <button class="btn btn-50" (click)="generate()">Generate Config</button>
     <hr>
@@ -15,15 +15,19 @@
           </mat-expansion-panel-header>
           <table>
             <tr *ngFor="let item of harvest.resources">
-              <td><img src="{{item.img}}" alt="" style="width:32px"></td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">{{item.name}}</td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">{{item.tag}}</td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;width: 233px;text-align:right">Multiplier
+              <td><img src="assets/images/items/{{item.img}}" alt="" style="width:32px"></td>
+              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">
+                {{item.name}}</td>
+              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">
+                {{item.tag}}</td>
+              <td
+                style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;width: 233px;text-align:right">
+                Multiplier
                 X </td>
               <td style="vertical-align: top;padding-left: 10px;">
-                <input type="number" name="" id="" class="form-control"
-                  [(ngModel)]="item.multiplier" [ngClass]="{'error-validation': !item.validateMultiplier()}">
-                </td>
+                <input type="number" name="" id="" class="form-control" [(ngModel)]="item.multiplier"
+                  [ngClass]="{'error-validation': !item.validateMultiplier()}">
+              </td>
             </tr>
           </table>
         </mat-expansion-panel>
@@ -36,13 +40,17 @@
           </mat-expansion-panel-header>
           <table>
             <tr *ngFor="let item of harvest.consumables">
-              <td><img src="{{item.img}}" alt="" style="width:32px"></td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">{{item.name}}</td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">{{item.tag}}</td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;width: 233px;">Multiplier
+              <td><img src="assets/images/items/{{item.img}}" alt="" style="width:32px"></td>
+              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">
+                {{item.name}}</td>
+              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">
+                {{item.tag}}</td>
+              <td
+                style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;width: 233px;">
+                Multiplier
                 X </td>
-              <td style="vertical-align: top;padding-left: 10px;"><input type="number" name="" id="" class="form-control"
-                  [(ngModel)]="item.multiplier"></td>
+              <td style="vertical-align: top;padding-left: 10px;"><input type="number" name="" id=""
+                  class="form-control" [(ngModel)]="item.multiplier"></td>
             </tr>
           </table>
         </mat-expansion-panel>
@@ -56,13 +64,17 @@
           </mat-expansion-panel-header>
           <table>
             <tr *ngFor="let item of harvest.seeds">
-              <td><img src="{{item.img}}" alt="" style="width:32px"></td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">{{item.name}}</td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">{{item.tag}}</td>
-              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;width: 233px;">Multiplier
+              <td><img src="assets/images/items/{{item.img}}" alt="" style="width:32px"></td>
+              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">
+                {{item.name}}</td>
+              <td style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;">
+                {{item.tag}}</td>
+              <td
+                style="vertical-align: top;padding-top: 7px;padding-left: 10px;border-bottom: 1px solid #efefef;width: 233px;">
+                Multiplier
                 X </td>
-              <td style="vertical-align: top;padding-left: 10px;"><input type="number" name="" id="" class="form-control"
-                  [(ngModel)]="item.multiplier"></td>
+              <td style="vertical-align: top;padding-left: 10px;"><input type="number" name="" id=""
+                  class="form-control" [(ngModel)]="item.multiplier"></td>
             </tr>
           </table>
         </mat-expansion-panel>

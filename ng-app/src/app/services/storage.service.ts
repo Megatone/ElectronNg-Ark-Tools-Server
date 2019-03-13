@@ -4,6 +4,8 @@ import { Map } from './models/Map';
 import * as cloner from 'lodash';
 import { Dino } from './models/Dino';
 import { Stats } from './models/Stats';
+import { GameIni } from './models/GameIni';
+import { CustomLevel } from './models/CustomLevel';
 
 @Injectable({
   providedIn: 'root'
@@ -53,25 +55,29 @@ export class StorageService {
   }
 
   public setStats(stats: Stats): void {
-    localStorage.setItem(stats.name.toString(), JSON.stringify(stats));
+    localStorage.setItem(stats.name.toString() + 'Stats', JSON.stringify(stats));
   }
 
   public getStats(stats: Stats): Stats {
-    const stats_stored = <Stats>JSON.parse((localStorage.getItem(stats.name.toString())));
-    if (stats_stored) {
-      stats.Health = stats_stored.Health;
-      stats.Stamina = stats_stored.Stamina;
-      stats.Torpidity = stats_stored.Torpidity;
-      stats.Oxygen = stats_stored.Oxygen;
-      stats.Food = stats_stored.Food;
-      stats.Water = stats_stored.Water;
-      stats.Temperature = stats_stored.Temperature;
-      stats.Weight = stats_stored.Weight;
-      stats.Melee = stats_stored.Melee;
-      stats.Speed = stats_stored.Speed;
-      stats.Temperature_Fortitude = stats_stored.Temperature_Fortitude;
-      stats.Crafting = stats_stored.Crafting;
-    }
-    return stats.validate() ? stats : new Stats(stats.name);
+    return new Stats(stats.name).load(JSON.parse(localStorage.getItem(stats.name + 'Stats')));
   }
+
+  public setGameIniConfig(config: GameIni): void {
+    localStorage.setItem('gameIni', JSON.stringify(config));
+  }
+
+  public getGameIniConfig(): GameIni {
+    return new GameIni().load(JSON.parse(localStorage.getItem('gameIni')));
+  }
+
+  public getCustomLevelConfig(customLevel: CustomLevel): CustomLevel {
+    return new CustomLevel(customLevel.name).load(JSON.parse(localStorage.getItem(customLevel.name + 'CustomLevel')));
+  }
+
+  public setCustomLevelConfig(customLevel: CustomLevel): void {
+    localStorage.setItem(customLevel.name + 'CustomLevel', JSON.stringify(customLevel));
+  }
+
+
+
 }

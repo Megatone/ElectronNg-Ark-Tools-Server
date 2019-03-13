@@ -1,56 +1,39 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Stats } from '../services/models/Stats';
 import { StorageService } from '../services/storage.service';
-import { MatDialog } from '@angular/material';
-import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-output-config.component';
+import { Subscription } from 'rxjs';
+import { AssistantService } from '../services/assistant.service';
 
 @Component({
   selector: 'app-custom-stats',
   templateUrl: './custom-stats.component.html',
   styleUrls: ['./custom-stats.component.scss']
 })
-export class CustomStatsComponent implements OnInit {
+export class CustomStatsComponent implements OnInit, OnDestroy {
 
+  private subscription: Subscription;
   private human_stats = new Stats('Player');
   private dino_tamed_stats = new Stats('DinoTamed');
   private dino_wild_stats = new Stats('DinoWild');
 
   constructor(
     private storage: StorageService,
-    private dialog: MatDialog
+    private assistantService: AssistantService
   ) { }
 
   ngOnInit() {
     this.human_stats = this.storage.getStats(this.human_stats);
     this.dino_tamed_stats = this.storage.getStats(this.dino_tamed_stats);
     this.dino_wild_stats = this.storage.getStats(this.dino_wild_stats);
-  }
-
-  public generate(): void {
-    if (
-      this.human_stats.validate() &&
-      this.dino_tamed_stats.validate() &&
-      this.dino_wild_stats.validate()
-    ) {
+    this.subscription =  this.assistantService.order$.subscribe((order) => {
       this.storage.setStats(this.human_stats);
       this.storage.setStats(this.dino_tamed_stats);
       this.storage.setStats(this.dino_wild_stats);
-      const stats = [this.human_stats, this.dino_tamed_stats, this.dino_wild_stats];
-      this.dialog.open(ModalOutputConfigComponent, {
-        height: '600px',
-        width: '900px',
-        data: {
-          config: stats.map((stat) => {
-            return stat.toDataConfig();
-          }).join(''),
-          object: stats,
-          fileName: 'CustomStats'
-        },
-        hasBackdrop: true
-      });
-    } else {
-      alert('BAD Config');
-    }
+      this.assistantService.confirm(order);
+    });
   }
 
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe();
+  }
 }

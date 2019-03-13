@@ -45,8 +45,6 @@ export class CustomSpawnsComponent implements OnInit {
       this.maps = maps;
       this.map = this.maps[0];
       this.map_spawn = this.map.clone().resetDinos();
-      this.mods_BASE = this.dataService.getDefaultMods();
-      this.mods = this.cloneMods();
       this.mods_loaded = true;
       this.mods_path = this.storage.getModsPath();
       this.mods_ids = this.storage.getModsIds();

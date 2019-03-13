@@ -13,11 +13,11 @@ export class Item {
     private _type: String,
     private _multiplier: Number = 1
   ) {
-    this.img = _img,
-      this.name = _name,
-      this.tag = _tag;
-    this.type = _type;
-    this.multiplier = _multiplier;
+      this.img = this._img,
+      this.name = this._name,
+      this.tag = this._tag;
+      this.type = this._type;
+      this.multiplier = this._multiplier;
   }
 
   public validate(): Boolean {
@@ -29,6 +29,7 @@ export class Item {
       this.validateMultiplier()
     );
   }
+  
   public validateMultiplier(): Boolean {
     return (this.multiplier !== undefined && this.multiplier !== null && this.multiplier > 0);
   }

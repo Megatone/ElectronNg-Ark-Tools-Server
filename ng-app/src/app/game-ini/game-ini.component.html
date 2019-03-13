@@ -186,7 +186,8 @@
         <tr>
           <td>bPassiveDefensesDamageRiderlessDinos</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPassiveDefensesDamageRiderlessDinos"></mat-slide-toggle>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bPassiveDefensesDamageRiderlessDinos">
+            </mat-slide-toggle>
             YES
           </td>
           <td>True allow spike walls to damage wild/riderless Dinos</td>
@@ -263,7 +264,8 @@
         <tr>
           <td>bDisableStructurePlacementCollision</td>
           <td>
-            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableStructurePlacementCollision"></mat-slide-toggle>
+            NO <mat-slide-toggle color="primary" [(ngModel)]="config.bDisableStructurePlacementCollision">
+            </mat-slide-toggle>
             YES
           </td>
           <td>If 'true' allows for structures to clip into the terrain.</td>
@@ -281,7 +283,8 @@
           <td>
             NO <mat-slide-toggle color="primary" [(ngModel)]="config.bUseSingleplayerSettings"></mat-slide-toggle> YES
           </td>
-          <td>If 'true' then the following multipliers are applied additionally to the configured (or default) values.</td>
+          <td>If 'true' then the following multipliers are applied additionally to the configured (or default) values.
+          </td>
 
         </tr>
         <tr>
@@ -433,13 +436,13 @@
             Set this to a number > 0 to act as a limit. 1 Player Tribes effectively disables Tribes
           </td>
         </tr>
-        <tr>
+       <!--  <tr>
           <td colspan="3">
             <input type="file" id="file" style="display:none" (change)="onloadConfig($event)" accept=".json">
             <button type="button" class="btn btn-50" (click)="importConfig()">Import Config JSON</button>
             <button type="button" class="btn btn-50" (click)="generate()">Generate</button>
           </td>
-        </tr>
+        </tr> -->
       </tbody>
     </table>
   </div>

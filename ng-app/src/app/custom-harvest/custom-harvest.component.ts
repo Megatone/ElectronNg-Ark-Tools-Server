@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material';
 export class CustomHarvestComponent implements OnInit {
 
   private harvest: Harvest;
-
+  private loaded: Boolean = false;
   constructor(
     private dataService: DataService,
     private dialog: MatDialog
@@ -20,7 +20,10 @@ export class CustomHarvestComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.harvest = this.dataService.getHarvest();
+    this.dataService.getHarvestJSON().then((harvest) => {
+      this.harvest = harvest;
+      this.loaded = true;
+    });
   }
 
   public generate(): void {
@@ -39,6 +42,7 @@ export class CustomHarvestComponent implements OnInit {
       alert('BAD Config');
     }
   }
+
   public import(): void {
     const element: HTMLElement = document.getElementById('file') as HTMLElement;
     element.click();

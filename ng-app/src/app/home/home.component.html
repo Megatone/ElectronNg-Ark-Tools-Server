@@ -1,1 +1,89 @@
-bbbbbbbbbbbbbbb
+<div class="container-fluid">
+    <div id="row" class="d-flex justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <header>
+                    <h2>GameUserSettings.ini</h2>
+                </header>
+                <div class="card-body">
+                    <h4>Basic Options</h4>
+                    <br>
+                    <p>Wide variety of configuration options that control their behavior and adjust many aspects of
+                        the
+                        game</p>
+                    <hr style="opacity:0">
+                    <h4 style="opacity:0">Custom Levels </h4>
+                    <br>
+                    <p style="opacity:0">This section allows you to set the maximum level and the total experience
+                        of
+                        the players and
+                        dinos</p>
+                    <hr style="opacity:0">
+                    <h4 style="opacity:0">Custom Stats</h4>
+                    <br>
+                    <p style="opacity:0">This section allows you to configure the stats of players and dinos</p>
+                    <hr style="opacity:0">
+                    <h4 style="opacity:0">Custom Engramns</h4>
+                    <br>
+                    <p style="opacity:0">This section allows you to configure the engram points that are delivered
+                        by
+                        each level</p>
+                    <hr style="opacity:0">
+                    <h4 style="opacity:0">Custom Harvest</h4>
+                    <br>
+                    <p style="opacity:0">This section allows you to set the harvest multiplier of the items</p>
+                    <hr style="opacity:0">
+                    <h4 style="opacity:0">Custom Spawns</h4>
+                    <br>
+                    <p style="opacity:0">This section allows you to generate new spawn of dinos in the official
+                        maps
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn" (click)="startGameUserSettings()">START ASSISTANT</button>
+                    <button type="button" class="btn" (click)="importGameUserSeettings()">IMPORT JSON</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <header>
+                    <h2>Game.ini</h2>
+                </header>
+                <div class="card-body">
+                    <h4>Basic Options</h4>
+                    <br>
+                    <p>Wide variety of configuration options that control their behavior and adjust many aspects of
+                        the
+                        game</p>
+                    <hr>
+                    <h4>Custom Levels </h4>
+                    <br>
+                    <p>This section allows you to set the maximum level and the total experience of the players and
+                        dinos</p>
+                    <hr>
+                    <h4>Custom Stats</h4>
+                    <br>
+                    <p>This section allows you to configure the stats of players and dinos</p>
+                    <hr>
+                    <h4>Custom Engramns</h4>
+                    <br>
+                    <p>This section allows you to configure the engram points that are delivered by each level</p>
+                    <hr>
+                    <h4>Custom Harvest</h4>
+                    <br>
+                    <p>This section allows you to set the harvest multiplier of the items</p>
+                    <hr>
+                    <h4>Custom Spawns</h4>
+                    <br>
+                    <p>This section allows you to generate new spawn of dinos in the official maps</p>
+
+                </div>
+                <div class="card-footer">
+                        <button type="button" class="btn" (click)="startGameIni()">START ASSISTANT</button>
+                        <button type="button" class="btn" (click)="importGameIni()">IMPORT JSON</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

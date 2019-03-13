@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ChartsModule } from 'ng2-charts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -36,6 +36,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { NgxElectronModule } from 'ngx-electron';
 import { ModalOutputConfigComponent } from './modals/modal-output-config/modal-output-config.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AssistantService } from './services/assistant.service';
 
 @NgModule({
   declarations: [
@@ -73,10 +74,12 @@ import { HttpClientModule } from '@angular/common/http';
     NgxElectronModule,
     MatDialogModule,
     MatInputModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
   ],
   providers: [
-    { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } }
+    { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } },
+    AssistantService
   ],
   entryComponents: [
     ModalOutputConfigComponent
