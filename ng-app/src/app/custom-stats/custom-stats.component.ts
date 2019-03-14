@@ -25,7 +25,7 @@ export class CustomStatsComponent implements OnInit, OnDestroy {
     this.human_stats = this.storage.getStats(this.human_stats);
     this.dino_tamed_stats = this.storage.getStats(this.dino_tamed_stats);
     this.dino_wild_stats = this.storage.getStats(this.dino_wild_stats);
-    this.subscription =  this.assistantService.order$.subscribe((order) => {
+    this.subscription = this.assistantService.order$.subscribe((order) => {
       this.storage.setStats(this.human_stats);
       this.storage.setStats(this.dino_tamed_stats);
       this.storage.setStats(this.dino_wild_stats);

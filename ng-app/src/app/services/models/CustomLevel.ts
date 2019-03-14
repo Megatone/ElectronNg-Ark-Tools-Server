@@ -10,12 +10,11 @@ export class CustomLevel {
     constructor(
         private _name: string = '',
         private _level: number = 100,
-        private _experience: number = 100000
+        private _factor: number = 2.5
     ) {
         this.name = this._name;
         this.level = this._level;
-        this.experience = this._experience;
-        this.factor = this.calculateFactor();
+        this.factor = this._factor;
         this.data = [];
         this.labels = [];
         this.calculateLevels();
@@ -28,19 +27,18 @@ export class CustomLevel {
             this.data.push(this.calculateY(i));
             this.labels.push(i.toFixed(0));
         }
-    }
-
-    private calculateFactor() {
-        return Math.log(this.experience) / Math.log(this.level);
+        this.experience = this.data[this.data.length - 1];
     }
 
     private calculateY(level): number {
-        return parseInt(Math.pow(level, this.calculateFactor()).toFixed(0), 0);
+        return parseInt(Math.pow(level, this.factor).toFixed(0), 0);
     }
 
     public getDataSet(): Array<{ data: Array<number>, label: string }> {
         return [{ data: this.data, label: this.name }];
     }
+
+
 
     public load(customLevel: any): CustomLevel {
         if (customLevel && typeof customLevel === 'object') {

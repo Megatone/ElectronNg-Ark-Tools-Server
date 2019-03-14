@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { Map } from '../services/models/Map';
 import { NgxSpinnerService } from 'ngx-spinner';
@@ -10,6 +10,8 @@ import { StorageService } from '../services/storage.service';
 import * as cloner from 'lodash';
 import { MatDialog } from '@angular/material';
 import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-output-config.component';
+import { Subscription } from 'rxjs';
+import { AssistantService } from '../services/assistant.service';
 
 
 
@@ -18,8 +20,9 @@ import { ModalOutputConfigComponent } from '../modals/modal-output-config/modal-
   templateUrl: './custom-spawns.component.html',
   styleUrls: ['./custom-spawns.component.scss']
 })
-export class CustomSpawnsComponent implements OnInit {
+export class CustomSpawnsComponent implements OnInit, OnDestroy {
 
+  private subscription: Subscription;
   private allLoaded: Boolean = false;
   private mods_loaded: Boolean = false;
   private mods_path: String = '';
@@ -36,10 +39,14 @@ export class CustomSpawnsComponent implements OnInit {
     private spinner: NgxSpinnerService,
     private _electronService: ElectronService,
     private storage: StorageService,
-    private dialog: MatDialog
+    private dialog: MatDialog,
+    private assistantService: AssistantService
   ) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.subscription = this.assistantService.order$.subscribe((order) => {
+      this.assistantService.confirm(order);
+    });
     this.spinner.show();
     this.dataService.getMapsJSON().then((maps) => {
       this.maps = maps;
@@ -51,6 +58,10 @@ export class CustomSpawnsComponent implements OnInit {
       this.allLoaded = true;
       this.spinner.hide();
     });
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe();
   }
 
   public selectModsPath(): void {

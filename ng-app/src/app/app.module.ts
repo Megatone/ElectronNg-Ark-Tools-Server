@@ -1,9 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ChartsModule } from 'ng2-charts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
 import {
   MatToolbarModule,
@@ -19,8 +18,11 @@ import {
   MatCheckboxModule,
   MatDialogModule,
   MatInputModule,
-  MAT_DIALOG_DEFAULT_OPTIONS
+  MatSliderModule,
+  MAT_DIALOG_DEFAULT_OPTIONS,
+  GestureConfig
 } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { GameUserSettingsComponent } from './game-user-settings/game-user-settings.component';
@@ -53,9 +55,7 @@ import { AssistantService } from './services/assistant.service';
     ModalOutputConfigComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
@@ -75,10 +75,14 @@ import { AssistantService } from './services/assistant.service';
     MatDialogModule,
     MatInputModule,
     HttpClientModule,
-    ChartsModule
+    ChartsModule,
+    MatSliderModule,
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [
     { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } },
+    { provide: HAMMER_GESTURE_CONFIG, useClass: GestureConfig },
     AssistantService
   ],
   entryComponents: [

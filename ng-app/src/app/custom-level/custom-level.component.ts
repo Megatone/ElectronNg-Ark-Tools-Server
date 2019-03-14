@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { StorageService } from '../services/storage.service';
 import { AssistantService } from '../services/assistant.service';
-import { CustomLevel } from '../services/models/CustomLevel';
+import { CustomLevelsEngrams } from '../services/models/CustomLevelsEngrams';
 
 @Component({
   selector: 'app-custom-level',
@@ -12,8 +12,8 @@ import { CustomLevel } from '../services/models/CustomLevel';
 export class CustomLevelComponent implements OnInit, OnDestroy {
 
   private subscription: Subscription;
-  public player: CustomLevel = new CustomLevel('Players');
-  public dino: CustomLevel = new CustomLevel('Dinos');
+
+  public customLevelEngrams: CustomLevelsEngrams = new CustomLevelsEngrams();
 
   private chartConfig = {
     lineChartLegend: true,
@@ -49,11 +49,9 @@ export class CustomLevelComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.player = this.storage.getCustomLevelConfig(this.player);
-    this.dino = this.storage.getCustomLevelConfig(this.dino);
+    this.customLevelEngrams = this.storage.getCustomLevelsEngramsConfig();
     this.subscription = this.assistantService.order$.subscribe((order) => {
-      this.storage.setCustomLevelConfig(this.player);
-      this.storage.setCustomLevelConfig(this.dino);
+      this.storage.setCustomLevelsEngramsConfig(this.customLevelEngrams);
       this.assistantService.confirm(order);
     });
   }

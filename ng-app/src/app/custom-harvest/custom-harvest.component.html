@@ -1,13 +1,15 @@
 <div style="height: -webkit-fill-available;" *ngIf="loaded">
 
   <div class="container" style="padding-top: 1.5em;">
+    <h1>Custom Havest Configuration</h1>
+    <hr>
     <input type="file" id="file" style="display:none" (change)="onloadConfig($event)" accept=".json">
     <button class="btn btn-50" (click)="import()">Import Config JSON</button>
     <button class="btn btn-50" (click)="generate()">Generate Config</button>
     <hr>
     <div class="panel panel-default">
-      <mat-accordion>
-        <mat-expansion-panel>
+      <mat-accordion multi="true">
+        <mat-expansion-panel [expanded]="true">
           <mat-expansion-panel-header>
             <mat-panel-title class="title-entry green">
               Resources
@@ -32,7 +34,7 @@
           </table>
         </mat-expansion-panel>
 
-        <mat-expansion-panel>
+        <mat-expansion-panel  [expanded]="true">
           <mat-expansion-panel-header>
             <mat-panel-title class="title-entry green">
               Consumables
@@ -56,7 +58,7 @@
         </mat-expansion-panel>
 
 
-        <mat-expansion-panel>
+        <mat-expansion-panel [expanded]="true">
           <mat-expansion-panel-header>
             <mat-panel-title class="title-entry green">
               Seeds

@@ -5,7 +5,7 @@ import * as cloner from 'lodash';
 import { Dino } from './models/Dino';
 import { Stats } from './models/Stats';
 import { GameIni } from './models/GameIni';
-import { CustomLevel } from './models/CustomLevel';
+import { CustomLevelsEngrams } from './models/CustomLevelsEngrams';
 
 @Injectable({
   providedIn: 'root'
@@ -70,12 +70,12 @@ export class StorageService {
     return new GameIni().load(JSON.parse(localStorage.getItem('gameIni')));
   }
 
-  public getCustomLevelConfig(customLevel: CustomLevel): CustomLevel {
-    return new CustomLevel(customLevel.name).load(JSON.parse(localStorage.getItem(customLevel.name + 'CustomLevel')));
+  public getCustomLevelsEngramsConfig(): CustomLevelsEngrams {
+    return new CustomLevelsEngrams().load(<CustomLevelsEngrams>JSON.parse(localStorage.getItem('CustomLevels')));
   }
 
-  public setCustomLevelConfig(customLevel: CustomLevel): void {
-    localStorage.setItem(customLevel.name + 'CustomLevel', JSON.stringify(customLevel));
+  public setCustomLevelsEngramsConfig(customLevels: CustomLevelsEngrams): void {
+    localStorage.setItem('CustomLevels', JSON.stringify(customLevels));
   }
 
 
