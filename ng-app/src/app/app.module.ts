@@ -39,6 +39,8 @@ import { NgxElectronModule } from 'ngx-electron';
 import { ModalOutputConfigComponent } from './modals/modal-output-config/modal-output-config.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AssistantService } from './services/assistant.service';
+import { LevelChartComponent } from './custom-level/level-chart/level-chart.component';
+import { EngramsChartComponent } from './custom-level/engrams-chart/engrams-chart.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { AssistantService } from './services/assistant.service';
     CustomHarvestComponent,
     CustomLevelComponent,
     CustomEngramsComponent,
-    ModalOutputConfigComponent
+    ModalOutputConfigComponent,
+    LevelChartComponent,
+    EngramsChartComponent
   ],
   imports: [
     AppRoutingModule,

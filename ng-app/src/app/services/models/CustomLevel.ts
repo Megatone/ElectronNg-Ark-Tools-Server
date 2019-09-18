@@ -38,8 +38,6 @@ export class CustomLevel {
         return [{ data: this.data, label: this.name }];
     }
 
-
-
     public load(customLevel: any): CustomLevel {
         if (customLevel && typeof customLevel === 'object') {
             for (const key in this) {

@@ -1,0 +1,25 @@
+ <table>
+    <tr>
+      <td>{{engramsLevel.name}} Level : &nbsp;</td>
+      <td><input type="number" class="form-control" [(ngModel)]="engramsLevel.level"
+          (change)="engramsLevel.calculateLevels()"></td>
+     <!--  <td>&nbsp;&nbsp;&nbsp;Factor Scaling : &nbsp;</td>
+      <td>
+        <mat-slider class="example-margin" [max]="4" [min]="1" [step]="0.001" [(ngModel)]="customLevel.factor"
+          (change)="customLevel.calculateLevels()">
+        </mat-slider>
+      </td>
+      <td>Total Experience : &nbsp;</td>
+      <td>{{customLevel.experience}}</td> -->
+    </tr>
+  </table> 
+
+<div class="flex">
+  <div class="flex-item"> 
+
+    <canvas baseChart [datasets]="engramsLevel.getDataSet()" [labels]="engramsLevel.labels"
+      [options]="chartConfig.lineChartOptions" [legend]="chartConfig.lineChartLegend"
+      [chartType]="chartConfig.lineChartType" [colors]="chartConfig.lineChartColors"></canvas>
+
+  </div>
+</div>
